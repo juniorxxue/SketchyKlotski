@@ -20,6 +20,7 @@
 		2982352B22AE3B6400639933 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2982352A22AE3B6400639933 /* Level.swift */; };
 		29CA8508227C0E4500D0A442 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CA8507227C0E4500D0A442 /* Card.swift */; };
 		29CA850A227C212E00D0A442 /* GameBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CA8509227C212E00D0A442 /* GameBoard.swift */; };
+		29F0950422AE6CC8005EE721 /* LevelSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F0950322AE6CC8005EE721 /* LevelSetup.swift */; };
 		ED64513DFDF2A3B754DFB32F /* libPods-klotski.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FC2E953DA01644717AAD03 /* libPods-klotski.a */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		2982352A22AE3B6400639933 /* Level.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
 		29CA8507227C0E4500D0A442 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		29CA8509227C212E00D0A442 /* GameBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoard.swift; sourceTree = "<group>"; };
+		29F0950322AE6CC8005EE721 /* LevelSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelSetup.swift; sourceTree = "<group>"; };
 		3529AC25D7BC9697A51356EA /* Pods-klotski.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-klotski.debug.xcconfig"; path = "Target Support Files/Pods-klotski/Pods-klotski.debug.xcconfig"; sourceTree = "<group>"; };
 		F8E8392F2A31DED3F76D47E8 /* Pods-klotski.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-klotski.release.xcconfig"; path = "Target Support Files/Pods-klotski/Pods-klotski.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,6 +96,7 @@
 				29268A3F227AD9B800063DC6 /* Assets.xcassets */,
 				29268A41227AD9B800063DC6 /* LaunchScreen.storyboard */,
 				29268A44227AD9B800063DC6 /* Info.plist */,
+				29F0950322AE6CC8005EE721 /* LevelSetup.swift */,
 			);
 			path = klotski;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 				2982352B22AE3B6400639933 /* Level.swift in Sources */,
 				29268A3B227AD9B500063DC6 /* GameVC.swift in Sources */,
 				29CA8508227C0E4500D0A442 /* Card.swift in Sources */,
+				29F0950422AE6CC8005EE721 /* LevelSetup.swift in Sources */,
 				2982352922AE3B5500639933 /* MenuVC.swift in Sources */,
 				2924880D227C6C7A009550B4 /* Map.swift in Sources */,
 				29268A39227AD9B500063DC6 /* AppDelegate.swift in Sources */,

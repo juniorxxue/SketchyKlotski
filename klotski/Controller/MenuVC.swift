@@ -28,28 +28,15 @@ class MenuVC: UIViewController, VerticalCardSwiperDelegate, VerticalCardSwiperDa
         Level("Level 9"),
     ]
     
-//    var levelsDetail = [LevelDetail](repeatElement(LevelDetail(context: PersistenceService.context), count: 10))
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         
-//        print("Logging Init Data:....")
-//
-//        // save and load
-//        for i in 0..<10 {
-//            levelsDetail[i].name = String(i)
-//            levelsDetail[i].pass = false
-//            print("\(levelsDetail[i].name) + \(levelsDetail[i].pass)")
-//        }
-        
-        
-    
-//        PersistenceService.saveContext()
+
         
         
         print("Logging Core Data:....")
-//        levelsDetail = fetchCoreData()
         
         // Do any additional setup after loading the view.
         levelSelector.delegate = self
@@ -88,9 +75,7 @@ class MenuVC: UIViewController, VerticalCardSwiperDelegate, VerticalCardSwiperDa
     
     func willSwipeCardAway(card: CardCell, index: Int, swipeDirection: SwipeDirection) {
         // called right before the card animates off the screen.
-//        levelsData.remove(at: index)
         levelsData.remove(at: index)
-//        print(index)
     }
     
     func didSwipeCardAway(card: CardCell, index: Int, swipeDirection: SwipeDirection) {
@@ -101,7 +86,7 @@ class MenuVC: UIViewController, VerticalCardSwiperDelegate, VerticalCardSwiperDa
         
         // Tells the delegate when the user taps a card (optional).
         
-        print("You tapped ", String(index))
+//        print("You tapped ", String(index))
         
         let mainStoryboard = UIStoryboard(name: "Main", bundle: Bundle.main)
         
@@ -111,17 +96,11 @@ class MenuVC: UIViewController, VerticalCardSwiperDelegate, VerticalCardSwiperDa
                 return
         }
         
-//        print(gameVC.levelSelected.text)
-//        gameVC.levelInfo = String(index)
         
-        // TEST for
-        
-//        levelsDetail = fetchCoreData()
         levelsData[index].pass = true
         
         levelSelector.reloadData()
         
-//        PersistenceService.saveContext()
         
         
         navigationController?.pushViewController(gameVC, animated: true)

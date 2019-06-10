@@ -16,18 +16,15 @@ class GameVC: UIViewController {
     
     @IBOutlet weak var gameView: UIView!
     
+    
+    var levelChosen = 0
 
     var blockSize: CGFloat!
     
     var board = GameBoard()
-    
-    var champions:[Card] = []
-    var towers:[Card] = []
-    var minions:[Card] = []
-    
+
     var cards:[Card] = []
     
-//    var cardViews:[UICard] = []
     
     
     var beginPostion:CGPoint = CGPoint(x: 1, y: 1)
@@ -40,33 +37,10 @@ class GameVC: UIViewController {
         let boardWidth = gameView.frame.size.width
         blockSize = boardWidth / 4
         
-        let champion = Card(champion: [(1,0), (2,0), (1,1), (2,1)])
-        
-        champions.append(champion)
 
-        // var championView = UICard(with: champion, in: board, scale: blockSize)
-        
-        
-        var towers:[Card] = []
-        
-        towers.append(Card(tower: [(0,0), (0,1)]))
-        towers.append(Card(tower: [(3,0), (3,1)]))
-        towers.append(Card(tower: [(0,2), (0,3)]))
-        towers.append(Card(tower: [(3,2), (3,3)]))
-        towers.append(Card(tower: [(1,2), (2,2)]))
-        
-        minions.append(Card(minion: [(0,4)]))
-        minions.append(Card(minion: [(1,3)]))
-        minions.append(Card(minion: [(2,3)]))
-        minions.append(Card(minion: [(3,4)]))
-        
-        cards += champions
-        cards += towers
-        cards += minions
+        cards = LevelSetup.initLevel4()
         
         board.updateMap(all: cards)
-        
-//        board.printMap(debug: "---Map--Init--")
         
         
         
@@ -185,9 +159,34 @@ class GameVC: UIViewController {
     @IBAction func backTapped(_ sender: Any) {
         
         self.navigationController?.popViewController(animated: true)
+        
+        print("It seems you are leaving")
+        
+        var savedDataChampions: [Int] = []
+        var savedDataTowers: [Int] = []
+        var savedDataMinions: [Int] = []
+        
+        for card in cards {
+            switch card.type {
+            case .champion:
+                savedDataChampions += LevelSetup.tuplesToInts(card.location)
+            case .tower:
+                savedDataTowers += LevelSetup.tuplesToInts(card.location)
+            case .minion:
+                savedDataMinions += LevelSetup.tuplesToInts(card.location)
+            }
+        }
+        
+        print(savedDataChampions)
+        print(savedDataTowers)
+        print(savedDataMinions)
+        print("---TADA---Real Data-----")
+        print(cards)
+        print("---TADA---ReProduce Data-----")
+        print(LevelSetup.intsToCards(champion: savedDataChampions, tower: savedDataTowers, minion: savedDataMinions))
     }
     
-    
+
 
 
 }

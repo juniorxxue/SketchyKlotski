@@ -14,7 +14,13 @@ enum Type {
     case champion
 }
 
-class Card {
+class Card : CustomStringConvertible{
+    
+    // for DEBUG
+    var description: String {
+        return "\(type) + \(location) \n"
+    }
+    
     
     var location: [(x: Int, y: Int)]
     
