@@ -1,0 +1,6 @@
+module RoughSwift {
+  umbrella header "RoughSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

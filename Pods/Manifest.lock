@@ -1,0 +1,20 @@
+PODS:
+  - RoughSwift (1.0.0)
+  - VerticalCardSwiper (1.0.0)
+
+DEPENDENCIES:
+  - RoughSwift
+  - VerticalCardSwiper
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - RoughSwift
+    - VerticalCardSwiper
+
+SPEC CHECKSUMS:
+  RoughSwift: 761100ed7a6315821ab1c5ee5eddea3b863e9b92
+  VerticalCardSwiper: 515b67e281731293cdf69d96904d67091389a1b4
+
+PODFILE CHECKSUM: 6db9f5b5748a336205547ba04f89e806d6a844c5
+
+COCOAPODS: 1.6.2

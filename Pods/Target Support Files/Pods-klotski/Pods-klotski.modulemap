@@ -1,0 +1,6 @@
+module Pods_klotski {
+  umbrella header "Pods-klotski-umbrella.h"
+
+  export *
+  module * { export * }
+}

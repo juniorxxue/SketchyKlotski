@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2924880B227C6383009550B4 /* UICard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2924880A227C6383009550B4 /* UICard.swift */; };
+		2924880D227C6C7A009550B4 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2924880C227C6C7A009550B4 /* Map.swift */; };
+		29268A39227AD9B500063DC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29268A38227AD9B500063DC6 /* AppDelegate.swift */; };
+		29268A3B227AD9B500063DC6 /* GameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29268A3A227AD9B500063DC6 /* GameVC.swift */; };
+		29268A3E227AD9B500063DC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29268A3C227AD9B500063DC6 /* Main.storyboard */; };
+		29268A40227AD9B800063DC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29268A3F227AD9B800063DC6 /* Assets.xcassets */; };
+		29268A43227AD9B800063DC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29268A41227AD9B800063DC6 /* LaunchScreen.storyboard */; };
+		2982352522AE3B4300639933 /* LevelCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2982352422AE3B4300639933 /* LevelCard.swift */; };
+		2982352722AE3B4D00639933 /* LevelCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2982352622AE3B4D00639933 /* LevelCard.xib */; };
+		2982352922AE3B5500639933 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2982352822AE3B5500639933 /* MenuVC.swift */; };
+		2982352B22AE3B6400639933 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2982352A22AE3B6400639933 /* Level.swift */; };
+		29CA8508227C0E4500D0A442 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CA8507227C0E4500D0A442 /* Card.swift */; };
+		29CA850A227C212E00D0A442 /* GameBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CA8509227C212E00D0A442 /* GameBoard.swift */; };
+		ED64513DFDF2A3B754DFB32F /* libPods-klotski.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FC2E953DA01644717AAD03 /* libPods-klotski.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18FC2E953DA01644717AAD03 /* libPods-klotski.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-klotski.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2924880A227C6383009550B4 /* UICard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICard.swift; sourceTree = "<group>"; };
+		2924880C227C6C7A009550B4 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		29268A35227AD9B500063DC6 /* klotski.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = klotski.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29268A38227AD9B500063DC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		29268A3A227AD9B500063DC6 /* GameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameVC.swift; sourceTree = "<group>"; };
+		29268A3D227AD9B500063DC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29268A3F227AD9B800063DC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29268A42227AD9B800063DC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29268A44227AD9B800063DC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2982352422AE3B4300639933 /* LevelCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelCard.swift; sourceTree = "<group>"; };
+		2982352622AE3B4D00639933 /* LevelCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LevelCard.xib; sourceTree = "<group>"; };
+		2982352822AE3B5500639933 /* MenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		2982352A22AE3B6400639933 /* Level.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		29CA8507227C0E4500D0A442 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		29CA8509227C212E00D0A442 /* GameBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoard.swift; sourceTree = "<group>"; };
+		3529AC25D7BC9697A51356EA /* Pods-klotski.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-klotski.debug.xcconfig"; path = "Target Support Files/Pods-klotski/Pods-klotski.debug.xcconfig"; sourceTree = "<group>"; };
+		F8E8392F2A31DED3F76D47E8 /* Pods-klotski.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-klotski.release.xcconfig"; path = "Target Support Files/Pods-klotski/Pods-klotski.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29268A32227AD9B500063DC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED64513DFDF2A3B754DFB32F /* libPods-klotski.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00F3AD1D738EF261875C68CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3529AC25D7BC9697A51356EA /* Pods-klotski.debug.xcconfig */,
+				F8E8392F2A31DED3F76D47E8 /* Pods-klotski.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		29268A2C227AD9B500063DC6 = {
+			isa = PBXGroup;
+			children = (
+				29268A37227AD9B500063DC6 /* klotski */,
+				29268A36227AD9B500063DC6 /* Products */,
+				00F3AD1D738EF261875C68CC /* Pods */,
+				51DFB037299022A510DAC164 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		29268A36227AD9B500063DC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29268A35227AD9B500063DC6 /* klotski.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29268A37227AD9B500063DC6 /* klotski */ = {
+			isa = PBXGroup;
+			children = (
+				29564DED227D75FE00C3BD53 /* Controller */,
+				29564DEB227D75ED00C3BD53 /* View */,
+				29564DEA227D75CC00C3BD53 /* Model */,
+				29268A38227AD9B500063DC6 /* AppDelegate.swift */,
+				29268A3C227AD9B500063DC6 /* Main.storyboard */,
+				29268A3F227AD9B800063DC6 /* Assets.xcassets */,
+				29268A41227AD9B800063DC6 /* LaunchScreen.storyboard */,
+				29268A44227AD9B800063DC6 /* Info.plist */,
+			);
+			path = klotski;
+			sourceTree = "<group>";
+		};
+		29564DEA227D75CC00C3BD53 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				29CA8509227C212E00D0A442 /* GameBoard.swift */,
+				2924880C227C6C7A009550B4 /* Map.swift */,
+				29CA8507227C0E4500D0A442 /* Card.swift */,
+				2982352A22AE3B6400639933 /* Level.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		29564DEB227D75ED00C3BD53 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2982352622AE3B4D00639933 /* LevelCard.xib */,
+				2982352422AE3B4300639933 /* LevelCard.swift */,
+				2924880A227C6383009550B4 /* UICard.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		29564DED227D75FE00C3BD53 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2982352822AE3B5500639933 /* MenuVC.swift */,
+				29268A3A227AD9B500063DC6 /* GameVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		51DFB037299022A510DAC164 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18FC2E953DA01644717AAD03 /* libPods-klotski.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29268A34227AD9B500063DC6 /* klotski */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29268A47227AD9B800063DC6 /* Build configuration list for PBXNativeTarget "klotski" */;
+			buildPhases = (
+				1A5819E464C788E343B5EA75 /* [CP] Check Pods Manifest.lock */,
+				29268A31227AD9B500063DC6 /* Sources */,
+				29268A32227AD9B500063DC6 /* Frameworks */,
+				29268A33227AD9B500063DC6 /* Resources */,
+				EC1533B5C9DA67D2A39AA882 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = klotski;
+			productName = klotski;
+			productReference = 29268A35227AD9B500063DC6 /* klotski.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29268A2D227AD9B500063DC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Nankai Univsity";
+				TargetAttributes = {
+					29268A34227AD9B500063DC6 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 29268A30227AD9B500063DC6 /* Build configuration list for PBXProject "klotski" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29268A2C227AD9B500063DC6;
+			productRefGroup = 29268A36227AD9B500063DC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29268A34227AD9B500063DC6 /* klotski */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29268A33227AD9B500063DC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2982352722AE3B4D00639933 /* LevelCard.xib in Resources */,
+				29268A43227AD9B800063DC6 /* LaunchScreen.storyboard in Resources */,
+				29268A40227AD9B800063DC6 /* Assets.xcassets in Resources */,
+				29268A3E227AD9B500063DC6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A5819E464C788E343B5EA75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-klotski-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC1533B5C9DA67D2A39AA882 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-klotski/Pods-klotski-resources.sh",
+				"${PODS_ROOT}/RoughSwift/Sources/Shared/rough.js",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/rough.js",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-klotski/Pods-klotski-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29268A31227AD9B500063DC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29CA850A227C212E00D0A442 /* GameBoard.swift in Sources */,
+				2982352522AE3B4300639933 /* LevelCard.swift in Sources */,
+				2924880B227C6383009550B4 /* UICard.swift in Sources */,
+				2982352B22AE3B6400639933 /* Level.swift in Sources */,
+				29268A3B227AD9B500063DC6 /* GameVC.swift in Sources */,
+				29CA8508227C0E4500D0A442 /* Card.swift in Sources */,
+				2982352922AE3B5500639933 /* MenuVC.swift in Sources */,
+				2924880D227C6C7A009550B4 /* Map.swift in Sources */,
+				29268A39227AD9B500063DC6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		29268A3C227AD9B500063DC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29268A3D227AD9B500063DC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29268A41227AD9B800063DC6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29268A42227AD9B800063DC6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29268A45227AD9B800063DC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		29268A46227AD9B800063DC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29268A48227AD9B800063DC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3529AC25D7BC9697A51356EA /* Pods-klotski.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = klotski/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nankai.klotski;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29268A49227AD9B800063DC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8E8392F2A31DED3F76D47E8 /* Pods-klotski.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = klotski/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nankai.klotski;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29268A30227AD9B500063DC6 /* Build configuration list for PBXProject "klotski" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29268A45227AD9B800063DC6 /* Debug */,
+				29268A46227AD9B800063DC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29268A47227AD9B800063DC6 /* Build configuration list for PBXNativeTarget "klotski" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29268A48227AD9B800063DC6 /* Debug */,
+				29268A49227AD9B800063DC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29268A2D227AD9B500063DC6 /* Project object */;
+}
