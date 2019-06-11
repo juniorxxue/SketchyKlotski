@@ -8,7 +8,6 @@
 
 import UIKit
 import VerticalCardSwiper
-import CoreData
 
 class MenuVC: UIViewController, VerticalCardSwiperDelegate, VerticalCardSwiperDatasource{
     
@@ -33,10 +32,6 @@ class MenuVC: UIViewController, VerticalCardSwiperDelegate, VerticalCardSwiperDa
         super.viewDidLoad()
         
         
-
-        
-        
-        print("Logging Core Data:....")
         
         // Do any additional setup after loading the view.
         levelSelector.delegate = self
@@ -95,6 +90,8 @@ class MenuVC: UIViewController, VerticalCardSwiperDelegate, VerticalCardSwiperDa
                 print("Opps, couldn't find it")
                 return
         }
+        
+        gameVC.levelChosen = index
         
         
         levelsData[index].pass = true

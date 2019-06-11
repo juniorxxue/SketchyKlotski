@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "059F453950BDB8A0B8AAE697080C14D3"
+               BlueprintIdentifier = "10E9CE931A9864B56B7450B00C941A28"
                BuildableName = "libRoughSwift.a"
                BlueprintName = "RoughSwift"
                ReferencedContainer = "container:Pods.xcodeproj">

@@ -7,126 +7,168 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0009A808A012561D28AAE982D18C05B8 /* rough.js in Sources */ = {isa = PBXBuildFile; fileRef = DDA87C136FF9BEEDEAB340F946605EC6 /* rough.js */; };
-		06C9198DA1255BA7830F22FC109577BC /* Pods-klotski-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BD18BAB013178FF4902DABB5598C344 /* Pods-klotski-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0BC220674F623274E1FFBE8816FD7103 /* VerticalCardSwiper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103092070FCFDAF089BA9AF5B277DD25 /* VerticalCardSwiper.swift */; };
-		15AB58A511516BB2CD394C71DDEB3B8F /* SwipeDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFA21CFBBAB9C8C099F94F7B32C5104 /* SwipeDirection.swift */; };
-		18F09AE0E86B93A44CB79537532EB671 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969193F46E1B24DB0761476115838556 /* CardCell.swift */; };
-		1B668FA096A60043F1D5444065CA2EC8 /* RoughSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8913C0A3F1D2E697677DEE7F43F8C5 /* RoughSwift-dummy.m */; };
-		1CEFF42709AB030CD2D578750C612F76 /* VerticalCardSwiper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A27A5094E6AA0EAD66BB5091D9C62AC /* VerticalCardSwiper-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		22AAE8393EE916922B4BAC2E9F6BE7F7 /* Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB47523BB5620F43CB9A7FDF75E0353 /* Generator.swift */; };
-		25CAA3583EB4A1BDE256CFAED8C369B3 /* SVGPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8431771E000C5040490B62EDCD65EE /* SVGPath.swift */; };
-		272D60E3E1AA0F56ED3C42F1BF7C9B4F /* VerticalCardSwiperDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795A2319294F91C92D8727ADA50C4164 /* VerticalCardSwiperDelegate.swift */; };
-		2F338D662DB93E313D91207A6772E712 /* OperationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7B3F832BB125022AD501CDD0AAF8DB /* OperationType.swift */; };
-		33CF7FE923884F47ADA4B89CE126D185 /* Drawable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFA66ADB6F1577C17E394945FF730AB /* Drawable.swift */; };
-		38207C9F1FE87520AD1DE08B1906633D /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2BAA9093CF6EF9920D901DE2209ECD /* Options.swift */; };
-		391BE6641666252DB78F9BEB15256EAD /* VerticalCardSwiper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5A1ECCC4E320F17E04580C9D65FA62 /* VerticalCardSwiper-dummy.m */; };
-		41977B1092C1026BB9C309AA536968C9 /* PanDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23F18C7C375AF6B4E388D3EA230C9FF /* PanDirection.swift */; };
-		432BADFF9FE2E501ACB4284B7B76B088 /* Pods-klotski-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D92AA491F5D51F50F12D5A32A6597187 /* Pods-klotski-dummy.m */; };
-		5432DD4C2162C64946C167FE1B8CCF78 /* VerticalCardSwiperFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2DEEF9AB7C836FFE9A56F1B89A79D7 /* VerticalCardSwiperFlowLayout.swift */; };
-		557B7A3EC47B61A32B685F79741663CD /* OperationSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E022E245C65F11DD48DA9CCAF0364878 /* OperationSet.swift */; };
-		5CFF3AEC0DFFEE2462F416A4C4B6B7EE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5073FE28B9BB211D8EFFC4FEC0A896E3 /* Extensions.swift */; };
-		62FA3279FC13BC9CD1F813F045301361 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE7D97CCEEE2AB176F7A5FA27E77E97 /* Renderer.swift */; };
-		696085607325D46DDFE333D1EE82C8FC /* RoughSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B5EB865E439E34337B7CCEFE82141F /* RoughSwift.swift */; };
-		6D478F3B683E78838F0D3C91BE84DE4A /* CardDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCB1C6B54381011774840B31A023970 /* CardDelegate.swift */; };
-		6E3BDD7062A27FA222F48A6C5B1D54D9 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9375B121A809C420E277AF27F854CDF /* Size.swift */; };
-		79BAE0676096A579A1955B528415A4E3 /* OperationSetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF5590505C15FC8C9B15AD6EDAF7B69 /* OperationSetType.swift */; };
-		918FE68DEEA9334DC8CE32562EA2CD48 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3996E5F2FCE3FDC4B645BCE123C01BAA /* Color+Extensions.swift */; };
-		BB6B6E6A8A4885FA2AE008CC82BA1628 /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94994BC9C24D0F14ECA537BB3EAB04A2 /* Operation.swift */; };
-		C276EC1DC4C29465B5CC9E0732BF4C7F /* FillStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D0D2D912829F02E51603691431FDAB /* FillStyle.swift */; };
-		CF57FB29A49ABA40CC12F3E321D15964 /* VerticalCardSwiperDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAE3D226CD32F5FD6585EC4C1E2F4E4 /* VerticalCardSwiperDatasource.swift */; };
-		DEC1134E3E36172146638C8A1C371DF7 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4BCC06D2FBF57D17873F71070418E /* Point.swift */; };
-		E2D46F0243B3CC5CBA0842766B5DA6B5 /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8348F624445D5A13BED51D3827195D19 /* Engine.swift */; };
-		E48CC90E4B2780432DA3AF5B5F0CCA83 /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0731AAEB765DC8DA3BAB2306518C2 /* Operator.swift */; };
-		ED64D371FAC60C217091CB94917DF0B0 /* RoughSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E6EE3CF5E9EAB6017549825716115D2 /* RoughSwift-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EF2D7E7E7DEDAB56AF64CE12F41690D5 /* VerticalCardSwiperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162FE5DC7630B933C64EDE60D6AF6CBE /* VerticalCardSwiperView.swift */; };
+		0086B8AE0735F65774A031541E2CFE34 /* SwiftyUserDefaults-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B959A90CD5CADE26C58524E76DDC4F9 /* SwiftyUserDefaults-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		00A2A846A45B478ED5B1885185A8E3F1 /* OperationSetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361AF57A5F2D75E5E0777C8345400C2B /* OperationSetType.swift */; };
+		01F53D9C063B36D5D86F5669E641CDC1 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF0FF56349ABC68101D2CFD69DCD9F1 /* Size.swift */; };
+		048B170E9C27F43DEB1CC9CCCA3B467C /* CardDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A35DC046348227A287ECB74096F3506 /* CardDelegate.swift */; };
+		2052A3E941218311C1997C890B982FCF /* VerticalCardSwiperDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3349BCDE003213C6713C4254D5D95C5C /* VerticalCardSwiperDatasource.swift */; };
+		23849AB05338909224DFB468A88CD872 /* VerticalCardSwiperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F1C9177CEE06BD304B3E35297EACD2 /* VerticalCardSwiperView.swift */; };
+		28725C3B067ED70DDC56B1D013A6393F /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD46AD91E8D6E263D53AE780F8FEB41E /* Defaults.swift */; };
+		2A9656DB535C74399EC39B8E076E0B77 /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91F0565A033D201A0E2F796F8F34CFE /* Engine.swift */; };
+		3C9A8AA4B49A135C58D681A4016820EC /* Defaults+Subscripts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA017B23BC87F16268C24000F882A157 /* Defaults+Subscripts.swift */; };
+		40833C6DFF6B86B573266B414997BA6C /* rough.js in Sources */ = {isa = PBXBuildFile; fileRef = 27C20E4FD5310F1DCF368C429E03C5F8 /* rough.js */; };
+		40D836AAFCE4C3FE78A5944B05734ACD /* Defaults+StringToBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8210D4C1E973AF02C61042186E0042 /* Defaults+StringToBool.swift */; };
+		41D804C4ECE19691C2D14B63B53208B6 /* VerticalCardSwiper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD998186EE708C0EA54346FB7AE42A3 /* VerticalCardSwiper-dummy.m */; };
+		421429082126175BAC63E8F3009175C9 /* Defaults+Observing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F128EE65C6E2DFD8CEA9E5355EC5D8 /* Defaults+Observing.swift */; };
+		467064CA0C34F2FBF2F06A0F0A359AF7 /* RoughSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A708EFB948CAF333A343C3BD0CF739 /* RoughSwift.swift */; };
+		4C09FB8C9D9E8722395BCF31F1B16A99 /* SwipeDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFBE74A261BF53C211C82732FF3775D /* SwipeDirection.swift */; };
+		4C3EE39987A39458AD2722B4BEB07F90 /* Drawable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB8864215617D5F0705A1E719EED54 /* Drawable.swift */; };
+		4CDB70DDBE0E6832DEE6A00639433463 /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CCBCA1B1681BF59375B87D0604A7B3 /* Operator.swift */; };
+		4D49B59DB449012F5052CF04B4C15CB1 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C6824793B52D75A3C8C80960A27740 /* Options.swift */; };
+		5199C4E00D0940AA47C563B661CFF945 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D3BEA27133A81D85126A61F857AAF3 /* Renderer.swift */; };
+		59A1B920398EFD07587B8D3DF871345E /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E4AAF972A94E001A21669BBB978CA3 /* Operation.swift */; };
+		5AB8224CF25F05D400AD1098E7DC45B0 /* VerticalCardSwiper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23D0A4827C06B94B2223B58C4A7FEDE /* VerticalCardSwiper.swift */; };
+		5D36D39EE4AEBD30BCBC9ADDEC38F08F /* DefaultsSerializable+BuiltIns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235428847CAA8723A40F64084CD77F17 /* DefaultsSerializable+BuiltIns.swift */; };
+		60A3F1F5A339A89221177C1A59E954C9 /* OperationSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9020F42CE2AB35E2E53727FC829396 /* OperationSet.swift */; };
+		6308053E83648C57721F761D6BA08D99 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FB47FDB64790CE16AC6DFF4CB480E5 /* Point.swift */; };
+		63E59D9FE89882C0296922C073C06DA5 /* VerticalCardSwiper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42752901419D211CBF995CA01EB05269 /* VerticalCardSwiper-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6ED7D11EE2AA6607BB1488434722F1E0 /* VerticalCardSwiperDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F5E200B01B79B3FBFCEA1D142E93BB /* VerticalCardSwiperDelegate.swift */; };
+		737566428C1F2A036A69ECEBD2E026E1 /* Pods-klotski-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D92AA491F5D51F50F12D5A32A6597187 /* Pods-klotski-dummy.m */; };
+		7E9752592ECC620D2BC2005947EF3D14 /* DefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B3726F334A0A7D78919C05745AA22A /* DefaultsKeys.swift */; };
+		85E743B8C8CCCBE6758E83F8B524C17F /* RoughSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C20F000B5F5C3900520AE117548C55 /* RoughSwift-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		88876ADF4E4225158DC80AE24A6E0C97 /* RoughSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ACAC13847690D70E4E6C1802CC9E80A7 /* RoughSwift-dummy.m */; };
+		895CAB1672995A4C6F928988DBF35603 /* DefaultsBridges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B43E745272E70B4B0F1793E9AE704A /* DefaultsBridges.swift */; };
+		9040A6B8C2F6632F1CC7414500048645 /* DefaultsSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E525009FEABF05D3FBCACE058598E5 /* DefaultsSerializable.swift */; };
+		91273821FC9B805735319BBD93E9DCCF /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FDBBF65D6A6B5DBCBF90FB2840FE0F /* Color+Extensions.swift */; };
+		B221697E81E18CEB9CA243F7ADC10C8C /* Pods-klotski-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BD18BAB013178FF4902DABB5598C344 /* Pods-klotski-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B7C6FB0E58C44102AEAD3263678C9048 /* OptionalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5639E45E643AD1FE0039068D7050E29 /* OptionalType.swift */; };
+		BEC717CFE5DB1A88733EA654840AEE73 /* OperationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48449AE480541B1D2D083863C3E913C /* OperationType.swift */; };
+		C2907E63C53E0043ACAA004B0178A0E0 /* DefaultsObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34366B15BC859A400372EA99994E639 /* DefaultsObserver.swift */; };
+		C2B2D3FB6FE80DA7DD5274BA42D92BFB /* Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0024D3E0463B2804CED6F6C31ED93CCA /* Generator.swift */; };
+		C53D5195FC48923A3767C959222EB81E /* VerticalCardSwiperFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB98E565D40A7EEE42CC50AE5267266 /* VerticalCardSwiperFlowLayout.swift */; };
+		CC40E0D51DCA7569804AF77B132819E0 /* FillStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E3B7449316B75237D0F9BEA6D79A75 /* FillStyle.swift */; };
+		CE24B1947486BF0D502805C3CC965463 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99090BE158A88369F78A43C57F28728B /* Extensions.swift */; };
+		F055AF28866997217B6B1A7F63CAE430 /* PanDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A698CE67F0BE951A00E90A0A3FD7814A /* PanDirection.swift */; };
+		F18DE4C4709057A57F62F22E86F96F18 /* SwiftyUserDefaults-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E168A6C8542F0A1FB63175647ABCC1F /* SwiftyUserDefaults-dummy.m */; };
+		F620BF6D17009E0893498F966A18E6F4 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AD0204DCC3D5E70E1D1F98FAB8E264 /* CardCell.swift */; };
+		F92F540618CE5C6DED3638C61DAD7081 /* SVGPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822075BF9829E311B8B7B138166A2B4D /* SVGPath.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		69DF38F612E92ECA411BCAFC33AF06F2 /* PBXContainerItemProxy */ = {
+		01196F4AA17741172AF26889AD4047B8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 57C0E1369180AA9BE61956F050F9A09E;
+			remoteGlobalIDString = 10E9CE931A9864B56B7450B00C941A28;
+			remoteInfo = RoughSwift;
+		};
+		28489D01237522C18C62203D6971FECC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A21F7119D2D3801F5D3F1DD29ACE70D9;
 			remoteInfo = VerticalCardSwiper;
 		};
-		98F65B4DB0F458DEAC545D10882D6758 /* PBXContainerItemProxy */ = {
+		ABE8F1FEAAF6B59F36CB46F5F7642C15 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 059F453950BDB8A0B8AAE697080C14D3;
-			remoteInfo = RoughSwift;
+			remoteGlobalIDString = FA02E4D0F804D2B633D08EECE38995A1;
+			remoteInfo = SwiftyUserDefaults;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07933CD1FA4C37A9F6466D14F55CF610 /* VerticalCardSwiper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VerticalCardSwiper-prefix.pch"; sourceTree = "<group>"; };
-		0D8913C0A3F1D2E697677DEE7F43F8C5 /* RoughSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RoughSwift-dummy.m"; sourceTree = "<group>"; };
+		0024D3E0463B2804CED6F6C31ED93CCA /* Generator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Generator.swift; path = Sources/Shared/Generator.swift; sourceTree = "<group>"; };
+		08A708EFB948CAF333A343C3BD0CF739 /* RoughSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RoughSwift.swift; path = Sources/iOS/RoughSwift.swift; sourceTree = "<group>"; };
 		0F7163288D6CA8E2969A3783386D34BE /* Pods-klotski-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-klotski-acknowledgements.markdown"; sourceTree = "<group>"; };
-		103092070FCFDAF089BA9AF5B277DD25 /* VerticalCardSwiper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerticalCardSwiper.swift; path = Sources/VerticalCardSwiper.swift; sourceTree = "<group>"; };
-		162FE5DC7630B933C64EDE60D6AF6CBE /* VerticalCardSwiperView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerticalCardSwiperView.swift; path = Sources/VerticalCardSwiperView.swift; sourceTree = "<group>"; };
+		18B43E745272E70B4B0F1793E9AE704A /* DefaultsBridges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultsBridges.swift; path = Sources/DefaultsBridges.swift; sourceTree = "<group>"; };
+		1AD998186EE708C0EA54346FB7AE42A3 /* VerticalCardSwiper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VerticalCardSwiper-dummy.m"; sourceTree = "<group>"; };
+		235428847CAA8723A40F64084CD77F17 /* DefaultsSerializable+BuiltIns.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DefaultsSerializable+BuiltIns.swift"; path = "Sources/DefaultsSerializable+BuiltIns.swift"; sourceTree = "<group>"; };
+		23A980F46EF76C878812F515240451B6 /* VerticalCardSwiper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VerticalCardSwiper.xcconfig; sourceTree = "<group>"; };
+		248B43C53F854E69A13E7E318A4065ED /* libSwiftyUserDefaults.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSwiftyUserDefaults.a; path = libSwiftyUserDefaults.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		26AD02EFDF1A917D4423CD968CF0E2B9 /* Pods-klotski.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-klotski.debug.xcconfig"; sourceTree = "<group>"; };
-		28F43ED7A5DDAB6AB24B6071F0261029 /* RoughSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RoughSwift.modulemap; sourceTree = "<group>"; };
-		2A2BAA9093CF6EF9920D901DE2209ECD /* Options.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Options.swift; path = Sources/Shared/Options.swift; sourceTree = "<group>"; };
-		31D0D2D912829F02E51603691431FDAB /* FillStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FillStyle.swift; path = Sources/Shared/FillStyle.swift; sourceTree = "<group>"; };
-		3996E5F2FCE3FDC4B645BCE123C01BAA /* Color+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Color+Extensions.swift"; path = "Sources/iOS/Color+Extensions.swift"; sourceTree = "<group>"; };
+		27C20E4FD5310F1DCF368C429E03C5F8 /* rough.js */ = {isa = PBXFileReference; includeInIndex = 1; name = rough.js; path = Sources/Shared/rough.js; sourceTree = "<group>"; };
+		29C20F000B5F5C3900520AE117548C55 /* RoughSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RoughSwift-umbrella.h"; sourceTree = "<group>"; };
+		2E168A6C8542F0A1FB63175647ABCC1F /* SwiftyUserDefaults-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyUserDefaults-dummy.m"; sourceTree = "<group>"; };
+		32F5E200B01B79B3FBFCEA1D142E93BB /* VerticalCardSwiperDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerticalCardSwiperDelegate.swift; path = Sources/VerticalCardSwiperDelegate.swift; sourceTree = "<group>"; };
+		3349BCDE003213C6713C4254D5D95C5C /* VerticalCardSwiperDatasource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerticalCardSwiperDatasource.swift; path = Sources/VerticalCardSwiperDatasource.swift; sourceTree = "<group>"; };
+		33E525009FEABF05D3FBCACE058598E5 /* DefaultsSerializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultsSerializable.swift; path = Sources/DefaultsSerializable.swift; sourceTree = "<group>"; };
+		361AF57A5F2D75E5E0777C8345400C2B /* OperationSetType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OperationSetType.swift; path = Sources/Shared/OperationSetType.swift; sourceTree = "<group>"; };
 		3BD18BAB013178FF4902DABB5598C344 /* Pods-klotski-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-klotski-umbrella.h"; sourceTree = "<group>"; };
-		3DB47523BB5620F43CB9A7FDF75E0353 /* Generator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Generator.swift; path = Sources/Shared/Generator.swift; sourceTree = "<group>"; };
-		48B5EB865E439E34337B7CCEFE82141F /* RoughSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RoughSwift.swift; path = Sources/iOS/RoughSwift.swift; sourceTree = "<group>"; };
-		4BCB1C6B54381011774840B31A023970 /* CardDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardDelegate.swift; path = Sources/CardDelegate.swift; sourceTree = "<group>"; };
-		4CD4BCC06D2FBF57D17873F71070418E /* Point.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Point.swift; path = Sources/Shared/Point.swift; sourceTree = "<group>"; };
-		4E6EE3CF5E9EAB6017549825716115D2 /* RoughSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RoughSwift-umbrella.h"; sourceTree = "<group>"; };
-		5073FE28B9BB211D8EFFC4FEC0A896E3 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Sources/Extensions.swift; sourceTree = "<group>"; };
-		55EA6A203F72ACAAD9DD35AB8C1C96F9 /* libRoughSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libRoughSwift.a; path = libRoughSwift.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DFA21CFBBAB9C8C099F94F7B32C5104 /* SwipeDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeDirection.swift; path = Sources/SwipeDirection.swift; sourceTree = "<group>"; };
+		42752901419D211CBF995CA01EB05269 /* VerticalCardSwiper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VerticalCardSwiper-umbrella.h"; sourceTree = "<group>"; };
+		5E9020F42CE2AB35E2E53727FC829396 /* OperationSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OperationSet.swift; path = Sources/Shared/OperationSet.swift; sourceTree = "<group>"; };
+		5EF280A4A865B9F4490CFB1CE9BE0DC7 /* SwiftyUserDefaults.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyUserDefaults.xcconfig; sourceTree = "<group>"; };
+		5FFBE74A261BF53C211C82732FF3775D /* SwipeDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeDirection.swift; path = Sources/SwipeDirection.swift; sourceTree = "<group>"; };
+		63FB47FDB64790CE16AC6DFF4CB480E5 /* Point.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Point.swift; path = Sources/Shared/Point.swift; sourceTree = "<group>"; };
 		657788B8F47F2E6A08420FF669D105F9 /* Pods-klotski-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-klotski-acknowledgements.plist"; sourceTree = "<group>"; };
-		697EDC2245D9CA00818423627EB63044 /* VerticalCardSwiper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VerticalCardSwiper.modulemap; sourceTree = "<group>"; };
-		6FAE3D226CD32F5FD6585EC4C1E2F4E4 /* VerticalCardSwiperDatasource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerticalCardSwiperDatasource.swift; path = Sources/VerticalCardSwiperDatasource.swift; sourceTree = "<group>"; };
-		795A2319294F91C92D8727ADA50C4164 /* VerticalCardSwiperDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerticalCardSwiperDelegate.swift; path = Sources/VerticalCardSwiperDelegate.swift; sourceTree = "<group>"; };
+		65F128EE65C6E2DFD8CEA9E5355EC5D8 /* Defaults+Observing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Defaults+Observing.swift"; path = "Sources/Defaults+Observing.swift"; sourceTree = "<group>"; };
+		70AD0204DCC3D5E70E1D1F98FAB8E264 /* CardCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardCell.swift; path = Sources/CardCell.swift; sourceTree = "<group>"; };
+		72F1C9177CEE06BD304B3E35297EACD2 /* VerticalCardSwiperView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerticalCardSwiperView.swift; path = Sources/VerticalCardSwiperView.swift; sourceTree = "<group>"; };
+		7A35DC046348227A287ECB74096F3506 /* CardDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardDelegate.swift; path = Sources/CardDelegate.swift; sourceTree = "<group>"; };
 		7A4FBDCEAAF837DB47C4880B6E3E2F16 /* Pods-klotski.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-klotski.modulemap"; sourceTree = "<group>"; };
-		7B7AB13921C4476A85B2E916479BA26E /* RoughSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RoughSwift.xcconfig; sourceTree = "<group>"; };
 		7BC2B14575FC1CDCB661D570DA9C0C03 /* Pods-klotski-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-klotski-resources.sh"; sourceTree = "<group>"; };
-		7D7B3F832BB125022AD501CDD0AAF8DB /* OperationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OperationType.swift; path = Sources/Shared/OperationType.swift; sourceTree = "<group>"; };
-		7EC0731AAEB765DC8DA3BAB2306518C2 /* Operator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operator.swift; path = Sources/Shared/Operator.swift; sourceTree = "<group>"; };
-		8348F624445D5A13BED51D3827195D19 /* Engine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Engine.swift; path = Sources/Shared/Engine.swift; sourceTree = "<group>"; };
-		94994BC9C24D0F14ECA537BB3EAB04A2 /* Operation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operation.swift; path = Sources/Shared/Operation.swift; sourceTree = "<group>"; };
-		969193F46E1B24DB0761476115838556 /* CardCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardCell.swift; path = Sources/CardCell.swift; sourceTree = "<group>"; };
-		9A27A5094E6AA0EAD66BB5091D9C62AC /* VerticalCardSwiper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VerticalCardSwiper-umbrella.h"; sourceTree = "<group>"; };
+		7BD1AFBCBBB98903C10F582C08465EC4 /* RoughSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RoughSwift.modulemap; sourceTree = "<group>"; };
+		7E96B4CE4B9FA02970FBA253FE70EB70 /* VerticalCardSwiper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VerticalCardSwiper.modulemap; sourceTree = "<group>"; };
+		7EFAC645F70598CD326CADC1A80E02DA /* libVerticalCardSwiper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libVerticalCardSwiper.a; path = libVerticalCardSwiper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		822075BF9829E311B8B7B138166A2B4D /* SVGPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SVGPath.swift; path = Sources/iOS/SVGPath.swift; sourceTree = "<group>"; };
+		82CCBCA1B1681BF59375B87D0604A7B3 /* Operator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operator.swift; path = Sources/Shared/Operator.swift; sourceTree = "<group>"; };
+		8B959A90CD5CADE26C58524E76DDC4F9 /* SwiftyUserDefaults-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyUserDefaults-umbrella.h"; sourceTree = "<group>"; };
+		8F8210D4C1E973AF02C61042186E0042 /* Defaults+StringToBool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Defaults+StringToBool.swift"; path = "Sources/Defaults+StringToBool.swift"; sourceTree = "<group>"; };
+		940795555F8368324CED80C77F8745CA /* libRoughSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libRoughSwift.a; path = libRoughSwift.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		97B3726F334A0A7D78919C05745AA22A /* DefaultsKeys.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultsKeys.swift; path = Sources/DefaultsKeys.swift; sourceTree = "<group>"; };
+		99090BE158A88369F78A43C57F28728B /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Sources/Extensions.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A2F5BA450A887589BE7B033ECC5D2D4A /* libVerticalCardSwiper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libVerticalCardSwiper.a; path = libVerticalCardSwiper.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		A71FB0234FF8245D7DD37C3A68112F79 /* libPods-klotski.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-klotski.a"; path = "libPods-klotski.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FB98E565D40A7EEE42CC50AE5267266 /* VerticalCardSwiperFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerticalCardSwiperFlowLayout.swift; path = Sources/VerticalCardSwiperFlowLayout.swift; sourceTree = "<group>"; };
+		A0E3B7449316B75237D0F9BEA6D79A75 /* FillStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FillStyle.swift; path = Sources/Shared/FillStyle.swift; sourceTree = "<group>"; };
+		A305004CBB139FB17F078F9BA8A7C64A /* RoughSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RoughSwift-prefix.pch"; sourceTree = "<group>"; };
+		A34366B15BC859A400372EA99994E639 /* DefaultsObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultsObserver.swift; path = Sources/DefaultsObserver.swift; sourceTree = "<group>"; };
+		A3D3BEA27133A81D85126A61F857AAF3 /* Renderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Renderer.swift; path = Sources/iOS/Renderer.swift; sourceTree = "<group>"; };
+		A5639E45E643AD1FE0039068D7050E29 /* OptionalType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OptionalType.swift; path = Sources/OptionalType.swift; sourceTree = "<group>"; };
+		A698CE67F0BE951A00E90A0A3FD7814A /* PanDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanDirection.swift; path = Sources/PanDirection.swift; sourceTree = "<group>"; };
 		A8122D55DFEC02373C2D106DBCDAA0FF /* Pods-klotski.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-klotski.release.xcconfig"; sourceTree = "<group>"; };
-		A82AB8558F69639FEB4B7B1E376E7643 /* VerticalCardSwiper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VerticalCardSwiper.xcconfig; sourceTree = "<group>"; };
-		ADF5590505C15FC8C9B15AD6EDAF7B69 /* OperationSetType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OperationSetType.swift; path = Sources/Shared/OperationSetType.swift; sourceTree = "<group>"; };
-		ADFA66ADB6F1577C17E394945FF730AB /* Drawable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Drawable.swift; path = Sources/Shared/Drawable.swift; sourceTree = "<group>"; };
-		AEE7D97CCEEE2AB176F7A5FA27E77E97 /* Renderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Renderer.swift; path = Sources/iOS/Renderer.swift; sourceTree = "<group>"; };
-		B23F18C7C375AF6B4E388D3EA230C9FF /* PanDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanDirection.swift; path = Sources/PanDirection.swift; sourceTree = "<group>"; };
-		CD2DEEF9AB7C836FFE9A56F1B89A79D7 /* VerticalCardSwiperFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerticalCardSwiperFlowLayout.swift; path = Sources/VerticalCardSwiperFlowLayout.swift; sourceTree = "<group>"; };
+		ACAC13847690D70E4E6C1802CC9E80A7 /* RoughSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RoughSwift-dummy.m"; sourceTree = "<group>"; };
+		AD46AD91E8D6E263D53AE780F8FEB41E /* Defaults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Defaults.swift; path = Sources/Defaults.swift; sourceTree = "<group>"; };
+		BA017B23BC87F16268C24000F882A157 /* Defaults+Subscripts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Defaults+Subscripts.swift"; path = "Sources/Defaults+Subscripts.swift"; sourceTree = "<group>"; };
+		C91F0565A033D201A0E2F796F8F34CFE /* Engine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Engine.swift; path = Sources/Shared/Engine.swift; sourceTree = "<group>"; };
+		CAACD438E8BC249947DB3E65CFEDB99F /* VerticalCardSwiper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VerticalCardSwiper-prefix.pch"; sourceTree = "<group>"; };
+		D1FDBBF65D6A6B5DBCBF90FB2840FE0F /* Color+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Color+Extensions.swift"; path = "Sources/iOS/Color+Extensions.swift"; sourceTree = "<group>"; };
+		D23D0A4827C06B94B2223B58C4A7FEDE /* VerticalCardSwiper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerticalCardSwiper.swift; path = Sources/VerticalCardSwiper.swift; sourceTree = "<group>"; };
 		D92AA491F5D51F50F12D5A32A6597187 /* Pods-klotski-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-klotski-dummy.m"; sourceTree = "<group>"; };
-		DDA87C136FF9BEEDEAB340F946605EC6 /* rough.js */ = {isa = PBXFileReference; includeInIndex = 1; name = rough.js; path = Sources/Shared/rough.js; sourceTree = "<group>"; };
-		E022E245C65F11DD48DA9CCAF0364878 /* OperationSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OperationSet.swift; path = Sources/Shared/OperationSet.swift; sourceTree = "<group>"; };
-		E71016AA18908D4D5725BC0F52A4BB8C /* RoughSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RoughSwift-prefix.pch"; sourceTree = "<group>"; };
-		EC8431771E000C5040490B62EDCD65EE /* SVGPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SVGPath.swift; path = Sources/iOS/SVGPath.swift; sourceTree = "<group>"; };
-		EE5A1ECCC4E320F17E04580C9D65FA62 /* VerticalCardSwiper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VerticalCardSwiper-dummy.m"; sourceTree = "<group>"; };
-		F9375B121A809C420E277AF27F854CDF /* Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Size.swift; path = Sources/Shared/Size.swift; sourceTree = "<group>"; };
+		DB13F185A8BA8600D89A011EBCDC5927 /* libPods-klotski.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-klotski.a"; path = "libPods-klotski.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBA3CF44BF23EA2F5B54BF26870C6B06 /* RoughSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RoughSwift.xcconfig; sourceTree = "<group>"; };
+		E0E4AAF972A94E001A21669BBB978CA3 /* Operation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operation.swift; path = Sources/Shared/Operation.swift; sourceTree = "<group>"; };
+		E1C6824793B52D75A3C8C80960A27740 /* Options.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Options.swift; path = Sources/Shared/Options.swift; sourceTree = "<group>"; };
+		E1D0FD54404B80E6384B5937B827D48F /* SwiftyUserDefaults-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyUserDefaults-prefix.pch"; sourceTree = "<group>"; };
+		E5EB8864215617D5F0705A1E719EED54 /* Drawable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Drawable.swift; path = Sources/Shared/Drawable.swift; sourceTree = "<group>"; };
+		EAF0FF56349ABC68101D2CFD69DCD9F1 /* Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Size.swift; path = Sources/Shared/Size.swift; sourceTree = "<group>"; };
+		F1EE08B1B8CD7A6F131772061DABECAE /* SwiftyUserDefaults.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyUserDefaults.modulemap; sourceTree = "<group>"; };
+		F48449AE480541B1D2D083863C3E913C /* OperationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OperationType.swift; path = Sources/Shared/OperationType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		047FD27F18528B0E6E5B9072C0B93B8A /* Frameworks */ = {
+		0805DA67A3447E87D1A0C5F51A8BD666 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2065F6923FDE08997F20AC115CCF2D2C /* Frameworks */ = {
+		6A400DDF11AC4A0763EF65CB79E51B32 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8B67EDFB4367017265575EC2E2FADFC3 /* Frameworks */ = {
+		B0FA6EB5E1AF9F953C815DA0E6B88C69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE1A82F63E6EA9AD7E6AD599D552E493 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -136,38 +178,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1CB0A53040F07020EB7CE8517B7298CD /* RoughSwift */ = {
+		0733AD03007BA8FF343053EE726E4802 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3996E5F2FCE3FDC4B645BCE123C01BAA /* Color+Extensions.swift */,
-				ADFA66ADB6F1577C17E394945FF730AB /* Drawable.swift */,
-				8348F624445D5A13BED51D3827195D19 /* Engine.swift */,
-				31D0D2D912829F02E51603691431FDAB /* FillStyle.swift */,
-				3DB47523BB5620F43CB9A7FDF75E0353 /* Generator.swift */,
-				94994BC9C24D0F14ECA537BB3EAB04A2 /* Operation.swift */,
-				E022E245C65F11DD48DA9CCAF0364878 /* OperationSet.swift */,
-				ADF5590505C15FC8C9B15AD6EDAF7B69 /* OperationSetType.swift */,
-				7D7B3F832BB125022AD501CDD0AAF8DB /* OperationType.swift */,
-				7EC0731AAEB765DC8DA3BAB2306518C2 /* Operator.swift */,
-				2A2BAA9093CF6EF9920D901DE2209ECD /* Options.swift */,
-				4CD4BCC06D2FBF57D17873F71070418E /* Point.swift */,
-				AEE7D97CCEEE2AB176F7A5FA27E77E97 /* Renderer.swift */,
-				DDA87C136FF9BEEDEAB340F946605EC6 /* rough.js */,
-				48B5EB865E439E34337B7CCEFE82141F /* RoughSwift.swift */,
-				F9375B121A809C420E277AF27F854CDF /* Size.swift */,
-				EC8431771E000C5040490B62EDCD65EE /* SVGPath.swift */,
-				1FF8FB2E0CE74D2F279FFEE248212A94 /* Resources */,
-				86212CC86182D2BF98CDE613E913AE50 /* Support Files */,
+				DB13F185A8BA8600D89A011EBCDC5927 /* libPods-klotski.a */,
+				940795555F8368324CED80C77F8745CA /* libRoughSwift.a */,
+				248B43C53F854E69A13E7E318A4065ED /* libSwiftyUserDefaults.a */,
+				7EFAC645F70598CD326CADC1A80E02DA /* libVerticalCardSwiper.a */,
 			);
-			name = RoughSwift;
-			path = RoughSwift;
-			sourceTree = "<group>";
-		};
-		1FF8FB2E0CE74D2F279FFEE248212A94 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Resources;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		2D980F1B00669F9D19BAE63B8019BD31 /* Pods-klotski */ = {
@@ -186,36 +205,86 @@
 			path = "Target Support Files/Pods-klotski";
 			sourceTree = "<group>";
 		};
-		30E004A98FBE4EC0DF1A2F8B4A1D2292 /* Products */ = {
+		3218B6111FAFD7AFB93AE38A2C6A64EF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A71FB0234FF8245D7DD37C3A68112F79 /* libPods-klotski.a */,
-				55EA6A203F72ACAAD9DD35AB8C1C96F9 /* libRoughSwift.a */,
-				A2F5BA450A887589BE7B033ECC5D2D4A /* libVerticalCardSwiper.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		3E324829160D407B19FF543EC40FB2F7 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1CB0A53040F07020EB7CE8517B7298CD /* RoughSwift */,
-				EDED6367286E3A8A3B1BDB8E23F12574 /* VerticalCardSwiper */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		86212CC86182D2BF98CDE613E913AE50 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				28F43ED7A5DDAB6AB24B6071F0261029 /* RoughSwift.modulemap */,
-				7B7AB13921C4476A85B2E916479BA26E /* RoughSwift.xcconfig */,
-				0D8913C0A3F1D2E697677DEE7F43F8C5 /* RoughSwift-dummy.m */,
-				E71016AA18908D4D5725BC0F52A4BB8C /* RoughSwift-prefix.pch */,
-				4E6EE3CF5E9EAB6017549825716115D2 /* RoughSwift-umbrella.h */,
+				7BD1AFBCBBB98903C10F582C08465EC4 /* RoughSwift.modulemap */,
+				DBA3CF44BF23EA2F5B54BF26870C6B06 /* RoughSwift.xcconfig */,
+				ACAC13847690D70E4E6C1802CC9E80A7 /* RoughSwift-dummy.m */,
+				A305004CBB139FB17F078F9BA8A7C64A /* RoughSwift-prefix.pch */,
+				29C20F000B5F5C3900520AE117548C55 /* RoughSwift-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/RoughSwift";
+			sourceTree = "<group>";
+		};
+		3246343CCC5BDF8409DE1D900C1C4710 /* RoughSwift */ = {
+			isa = PBXGroup;
+			children = (
+				D1FDBBF65D6A6B5DBCBF90FB2840FE0F /* Color+Extensions.swift */,
+				E5EB8864215617D5F0705A1E719EED54 /* Drawable.swift */,
+				C91F0565A033D201A0E2F796F8F34CFE /* Engine.swift */,
+				A0E3B7449316B75237D0F9BEA6D79A75 /* FillStyle.swift */,
+				0024D3E0463B2804CED6F6C31ED93CCA /* Generator.swift */,
+				E0E4AAF972A94E001A21669BBB978CA3 /* Operation.swift */,
+				5E9020F42CE2AB35E2E53727FC829396 /* OperationSet.swift */,
+				361AF57A5F2D75E5E0777C8345400C2B /* OperationSetType.swift */,
+				F48449AE480541B1D2D083863C3E913C /* OperationType.swift */,
+				82CCBCA1B1681BF59375B87D0604A7B3 /* Operator.swift */,
+				E1C6824793B52D75A3C8C80960A27740 /* Options.swift */,
+				63FB47FDB64790CE16AC6DFF4CB480E5 /* Point.swift */,
+				A3D3BEA27133A81D85126A61F857AAF3 /* Renderer.swift */,
+				27C20E4FD5310F1DCF368C429E03C5F8 /* rough.js */,
+				08A708EFB948CAF333A343C3BD0CF739 /* RoughSwift.swift */,
+				EAF0FF56349ABC68101D2CFD69DCD9F1 /* Size.swift */,
+				822075BF9829E311B8B7B138166A2B4D /* SVGPath.swift */,
+				BB8D831BC9F17B595CA012606FAE500B /* Resources */,
+				3218B6111FAFD7AFB93AE38A2C6A64EF /* Support Files */,
+			);
+			name = RoughSwift;
+			path = RoughSwift;
+			sourceTree = "<group>";
+		};
+		3EE0D99B5B5245CC52B99DFD04CA4622 /* SwiftyUserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				AD46AD91E8D6E263D53AE780F8FEB41E /* Defaults.swift */,
+				65F128EE65C6E2DFD8CEA9E5355EC5D8 /* Defaults+Observing.swift */,
+				8F8210D4C1E973AF02C61042186E0042 /* Defaults+StringToBool.swift */,
+				BA017B23BC87F16268C24000F882A157 /* Defaults+Subscripts.swift */,
+				18B43E745272E70B4B0F1793E9AE704A /* DefaultsBridges.swift */,
+				97B3726F334A0A7D78919C05745AA22A /* DefaultsKeys.swift */,
+				A34366B15BC859A400372EA99994E639 /* DefaultsObserver.swift */,
+				33E525009FEABF05D3FBCACE058598E5 /* DefaultsSerializable.swift */,
+				235428847CAA8723A40F64084CD77F17 /* DefaultsSerializable+BuiltIns.swift */,
+				A5639E45E643AD1FE0039068D7050E29 /* OptionalType.swift */,
+				66AF17AED84B23414085F409CE47EFA4 /* Support Files */,
+			);
+			name = SwiftyUserDefaults;
+			path = SwiftyUserDefaults;
+			sourceTree = "<group>";
+		};
+		66AF17AED84B23414085F409CE47EFA4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1EE08B1B8CD7A6F131772061DABECAE /* SwiftyUserDefaults.modulemap */,
+				5EF280A4A865B9F4490CFB1CE9BE0DC7 /* SwiftyUserDefaults.xcconfig */,
+				2E168A6C8542F0A1FB63175647ABCC1F /* SwiftyUserDefaults-dummy.m */,
+				E1D0FD54404B80E6384B5937B827D48F /* SwiftyUserDefaults-prefix.pch */,
+				8B959A90CD5CADE26C58524E76DDC4F9 /* SwiftyUserDefaults-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyUserDefaults";
+			sourceTree = "<group>";
+		};
+		85F14BB8A9D48EB95E798359B318C461 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3246343CCC5BDF8409DE1D900C1C4710 /* RoughSwift */,
+				3EE0D99B5B5245CC52B99DFD04CA4622 /* SwiftyUserDefaults */,
+				9F67F23795656C0A9A00A1930B395C0D /* VerticalCardSwiper */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		8A2D2B5EFB41A0662AD38321D9C5B108 /* Targets Support Files */ = {
@@ -226,17 +295,43 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A33832CA494328EC5BD885F7A766FD63 /* Support Files */ = {
+		98DEB55E63960358AD5A7C5F524873EC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				697EDC2245D9CA00818423627EB63044 /* VerticalCardSwiper.modulemap */,
-				A82AB8558F69639FEB4B7B1E376E7643 /* VerticalCardSwiper.xcconfig */,
-				EE5A1ECCC4E320F17E04580C9D65FA62 /* VerticalCardSwiper-dummy.m */,
-				07933CD1FA4C37A9F6466D14F55CF610 /* VerticalCardSwiper-prefix.pch */,
-				9A27A5094E6AA0EAD66BB5091D9C62AC /* VerticalCardSwiper-umbrella.h */,
+				7E96B4CE4B9FA02970FBA253FE70EB70 /* VerticalCardSwiper.modulemap */,
+				23A980F46EF76C878812F515240451B6 /* VerticalCardSwiper.xcconfig */,
+				1AD998186EE708C0EA54346FB7AE42A3 /* VerticalCardSwiper-dummy.m */,
+				CAACD438E8BC249947DB3E65CFEDB99F /* VerticalCardSwiper-prefix.pch */,
+				42752901419D211CBF995CA01EB05269 /* VerticalCardSwiper-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/VerticalCardSwiper";
+			sourceTree = "<group>";
+		};
+		9F67F23795656C0A9A00A1930B395C0D /* VerticalCardSwiper */ = {
+			isa = PBXGroup;
+			children = (
+				70AD0204DCC3D5E70E1D1F98FAB8E264 /* CardCell.swift */,
+				7A35DC046348227A287ECB74096F3506 /* CardDelegate.swift */,
+				99090BE158A88369F78A43C57F28728B /* Extensions.swift */,
+				A698CE67F0BE951A00E90A0A3FD7814A /* PanDirection.swift */,
+				5FFBE74A261BF53C211C82732FF3775D /* SwipeDirection.swift */,
+				D23D0A4827C06B94B2223B58C4A7FEDE /* VerticalCardSwiper.swift */,
+				3349BCDE003213C6713C4254D5D95C5C /* VerticalCardSwiperDatasource.swift */,
+				32F5E200B01B79B3FBFCEA1D142E93BB /* VerticalCardSwiperDelegate.swift */,
+				9FB98E565D40A7EEE42CC50AE5267266 /* VerticalCardSwiperFlowLayout.swift */,
+				72F1C9177CEE06BD304B3E35297EACD2 /* VerticalCardSwiperView.swift */,
+				98DEB55E63960358AD5A7C5F524873EC /* Support Files */,
+			);
+			name = VerticalCardSwiper;
+			path = VerticalCardSwiper;
+			sourceTree = "<group>";
+		};
+		BB8D831BC9F17B595CA012606FAE500B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -244,8 +339,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				3E324829160D407B19FF543EC40FB2F7 /* Pods */,
-				30E004A98FBE4EC0DF1A2F8B4A1D2292 /* Products */,
+				85F14BB8A9D48EB95E798359B318C461 /* Pods */,
+				0733AD03007BA8FF343053EE726E4802 /* Products */,
 				8A2D2B5EFB41A0662AD38321D9C5B108 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -257,82 +352,72 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EDED6367286E3A8A3B1BDB8E23F12574 /* VerticalCardSwiper */ = {
-			isa = PBXGroup;
-			children = (
-				969193F46E1B24DB0761476115838556 /* CardCell.swift */,
-				4BCB1C6B54381011774840B31A023970 /* CardDelegate.swift */,
-				5073FE28B9BB211D8EFFC4FEC0A896E3 /* Extensions.swift */,
-				B23F18C7C375AF6B4E388D3EA230C9FF /* PanDirection.swift */,
-				5DFA21CFBBAB9C8C099F94F7B32C5104 /* SwipeDirection.swift */,
-				103092070FCFDAF089BA9AF5B277DD25 /* VerticalCardSwiper.swift */,
-				6FAE3D226CD32F5FD6585EC4C1E2F4E4 /* VerticalCardSwiperDatasource.swift */,
-				795A2319294F91C92D8727ADA50C4164 /* VerticalCardSwiperDelegate.swift */,
-				CD2DEEF9AB7C836FFE9A56F1B89A79D7 /* VerticalCardSwiperFlowLayout.swift */,
-				162FE5DC7630B933C64EDE60D6AF6CBE /* VerticalCardSwiperView.swift */,
-				A33832CA494328EC5BD885F7A766FD63 /* Support Files */,
-			);
-			name = VerticalCardSwiper;
-			path = VerticalCardSwiper;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2AD97B678D167553DD9639E3DD2F2296 /* Headers */ = {
+		0BFAFB630A45D3D7A0C5C8604FE48A09 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED64D371FAC60C217091CB94917DF0B0 /* RoughSwift-umbrella.h in Headers */,
+				0086B8AE0735F65774A031541E2CFE34 /* SwiftyUserDefaults-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5693F3247EB1F1146AF96711BCC85291 /* Headers */ = {
+		51D0BCEDC9B6A6C291A4078C8099298C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06C9198DA1255BA7830F22FC109577BC /* Pods-klotski-umbrella.h in Headers */,
+				63E59D9FE89882C0296922C073C06DA5 /* VerticalCardSwiper-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		800C571C6A56A8735242E37F92CBFCE3 /* Headers */ = {
+		63A2E2409281378CA91FEC2455377E01 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CEFF42709AB030CD2D578750C612F76 /* VerticalCardSwiper-umbrella.h in Headers */,
+				85E743B8C8CCCBE6758E83F8B524C17F /* RoughSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98511C1732836815DB384F7F26EAAF9B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B221697E81E18CEB9CA243F7ADC10C8C /* Pods-klotski-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0080840572ACF53D651D48A5915A1FC1 /* Pods-klotski */ = {
+		08FA3136F82B682048D260C2E37068A5 /* Pods-klotski */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E45AC94CEF4C42F915A1ADC1E2C3112F /* Build configuration list for PBXNativeTarget "Pods-klotski" */;
+			buildConfigurationList = 818C04CF6209F317AC718533070C6B34 /* Build configuration list for PBXNativeTarget "Pods-klotski" */;
 			buildPhases = (
-				5693F3247EB1F1146AF96711BCC85291 /* Headers */,
-				08E3B8983334525B997A5374286FC666 /* Sources */,
-				2065F6923FDE08997F20AC115CCF2D2C /* Frameworks */,
+				98511C1732836815DB384F7F26EAAF9B /* Headers */,
+				B454DE87F5F19FBEE1935320AC24D8D3 /* Sources */,
+				CE1A82F63E6EA9AD7E6AD599D552E493 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				32573BD87378A634C1DB25C563E2EA25 /* PBXTargetDependency */,
-				1BD66EF8FB5D43D9C08042DD62956AFB /* PBXTargetDependency */,
+				266B640D24B2EA33F55729723F27E680 /* PBXTargetDependency */,
+				9FC50ACC2D052341A5F1CE69C71A5B35 /* PBXTargetDependency */,
+				2CFEC1F4890C78E460BDED5DB4AB0981 /* PBXTargetDependency */,
 			);
 			name = "Pods-klotski";
 			productName = "Pods-klotski";
-			productReference = A71FB0234FF8245D7DD37C3A68112F79 /* libPods-klotski.a */;
+			productReference = DB13F185A8BA8600D89A011EBCDC5927 /* libPods-klotski.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		059F453950BDB8A0B8AAE697080C14D3 /* RoughSwift */ = {
+		10E9CE931A9864B56B7450B00C941A28 /* RoughSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 67997593691B6FB7A59FF5F7B1087810 /* Build configuration list for PBXNativeTarget "RoughSwift" */;
+			buildConfigurationList = BE3DDEEB6477CFA66F36678374B1B9D5 /* Build configuration list for PBXNativeTarget "RoughSwift" */;
 			buildPhases = (
-				2AD97B678D167553DD9639E3DD2F2296 /* Headers */,
-				3D305BD61619A559B9E726C05E1D09AF /* Sources */,
-				8B67EDFB4367017265575EC2E2FADFC3 /* Frameworks */,
-				9E6B8D36222A81F082155E39A749B911 /* Copy generated compatibility header */,
+				63A2E2409281378CA91FEC2455377E01 /* Headers */,
+				2D9A55C60207B5AF47233D41E46B5360 /* Sources */,
+				6A400DDF11AC4A0763EF65CB79E51B32 /* Frameworks */,
+				8575BC2BB727149B70260E2D360B3C64 /* Copy generated compatibility header */,
 			);
 			buildRules = (
 			);
@@ -340,17 +425,17 @@
 			);
 			name = RoughSwift;
 			productName = RoughSwift;
-			productReference = 55EA6A203F72ACAAD9DD35AB8C1C96F9 /* libRoughSwift.a */;
+			productReference = 940795555F8368324CED80C77F8745CA /* libRoughSwift.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		57C0E1369180AA9BE61956F050F9A09E /* VerticalCardSwiper */ = {
+		A21F7119D2D3801F5D3F1DD29ACE70D9 /* VerticalCardSwiper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 14DD76C65867B3087A513CA45D19D182 /* Build configuration list for PBXNativeTarget "VerticalCardSwiper" */;
+			buildConfigurationList = 81379E6F5CA05DDE0AA8595F029B46D7 /* Build configuration list for PBXNativeTarget "VerticalCardSwiper" */;
 			buildPhases = (
-				800C571C6A56A8735242E37F92CBFCE3 /* Headers */,
-				2B450B66DA54E3048E3EB2A5640970C7 /* Sources */,
-				047FD27F18528B0E6E5B9072C0B93B8A /* Frameworks */,
-				520CB6A52B5C3B226D1A8725E2ECAA90 /* Copy generated compatibility header */,
+				51D0BCEDC9B6A6C291A4078C8099298C /* Headers */,
+				8BEF2CFFC4AB4FC3755B52AA010A8A7E /* Sources */,
+				0805DA67A3447E87D1A0C5F51A8BD666 /* Frameworks */,
+				EAE6B5BD39F9A7996ED27F05CE0EEC8B /* Copy generated compatibility header */,
 			);
 			buildRules = (
 			);
@@ -358,7 +443,25 @@
 			);
 			name = VerticalCardSwiper;
 			productName = VerticalCardSwiper;
-			productReference = A2F5BA450A887589BE7B033ECC5D2D4A /* libVerticalCardSwiper.a */;
+			productReference = 7EFAC645F70598CD326CADC1A80E02DA /* libVerticalCardSwiper.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FA02E4D0F804D2B633D08EECE38995A1 /* SwiftyUserDefaults */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C32DDE06B24D97085984FF2FA6645565 /* Build configuration list for PBXNativeTarget "SwiftyUserDefaults" */;
+			buildPhases = (
+				0BFAFB630A45D3D7A0C5C8604FE48A09 /* Headers */,
+				9E755FCA496C6F6FCE46A1C4AC33831E /* Sources */,
+				B0FA6EB5E1AF9F953C815DA0E6B88C69 /* Frameworks */,
+				F86EC36195C150EA97FB2738B06B96E2 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyUserDefaults;
+			productName = SwiftyUserDefaults;
+			productReference = 248B43C53F854E69A13E7E318A4065ED /* libSwiftyUserDefaults.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -378,43 +481,20 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 30E004A98FBE4EC0DF1A2F8B4A1D2292 /* Products */;
+			productRefGroup = 0733AD03007BA8FF343053EE726E4802 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0080840572ACF53D651D48A5915A1FC1 /* Pods-klotski */,
-				059F453950BDB8A0B8AAE697080C14D3 /* RoughSwift */,
-				57C0E1369180AA9BE61956F050F9A09E /* VerticalCardSwiper */,
+				08FA3136F82B682048D260C2E37068A5 /* Pods-klotski */,
+				10E9CE931A9864B56B7450B00C941A28 /* RoughSwift */,
+				FA02E4D0F804D2B633D08EECE38995A1 /* SwiftyUserDefaults */,
+				A21F7119D2D3801F5D3F1DD29ACE70D9 /* VerticalCardSwiper */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		520CB6A52B5C3B226D1A8725E2ECAA90 /* Copy generated compatibility header */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
-				"${PODS_ROOT}/Headers/Public/VerticalCardSwiper/VerticalCardSwiper.modulemap",
-				"${PODS_ROOT}/Headers/Public/VerticalCardSwiper/VerticalCardSwiper-umbrella.h",
-			);
-			name = "Copy generated compatibility header";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
-				"${BUILT_PRODUCTS_DIR}/VerticalCardSwiper-umbrella.h",
-				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/VerticalCardSwiper/VerticalCardSwiper.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/VerticalCardSwiper/VerticalCardSwiper-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
-		};
-		9E6B8D36222A81F082155E39A749B911 /* Copy generated compatibility header */ = {
+		8575BC2BB727149B70260E2D360B3C64 /* Copy generated compatibility header */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -438,101 +518,199 @@
 			shellPath = /bin/sh;
 			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/RoughSwift/RoughSwift.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/RoughSwift/RoughSwift-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
 		};
+		EAE6B5BD39F9A7996ED27F05CE0EEC8B /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/VerticalCardSwiper/VerticalCardSwiper.modulemap",
+				"${PODS_ROOT}/Headers/Public/VerticalCardSwiper/VerticalCardSwiper-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/VerticalCardSwiper-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/VerticalCardSwiper/VerticalCardSwiper.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/VerticalCardSwiper/VerticalCardSwiper-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+		F86EC36195C150EA97FB2738B06B96E2 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/SwiftyUserDefaults/SwiftyUserDefaults.modulemap",
+				"${PODS_ROOT}/Headers/Public/SwiftyUserDefaults/SwiftyUserDefaults-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/SwiftyUserDefaults-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SwiftyUserDefaults/SwiftyUserDefaults.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SwiftyUserDefaults/SwiftyUserDefaults-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		08E3B8983334525B997A5374286FC666 /* Sources */ = {
+		2D9A55C60207B5AF47233D41E46B5360 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				432BADFF9FE2E501ACB4284B7B76B088 /* Pods-klotski-dummy.m in Sources */,
+				91273821FC9B805735319BBD93E9DCCF /* Color+Extensions.swift in Sources */,
+				4C3EE39987A39458AD2722B4BEB07F90 /* Drawable.swift in Sources */,
+				2A9656DB535C74399EC39B8E076E0B77 /* Engine.swift in Sources */,
+				CC40E0D51DCA7569804AF77B132819E0 /* FillStyle.swift in Sources */,
+				C2B2D3FB6FE80DA7DD5274BA42D92BFB /* Generator.swift in Sources */,
+				59A1B920398EFD07587B8D3DF871345E /* Operation.swift in Sources */,
+				60A3F1F5A339A89221177C1A59E954C9 /* OperationSet.swift in Sources */,
+				00A2A846A45B478ED5B1885185A8E3F1 /* OperationSetType.swift in Sources */,
+				BEC717CFE5DB1A88733EA654840AEE73 /* OperationType.swift in Sources */,
+				4CDB70DDBE0E6832DEE6A00639433463 /* Operator.swift in Sources */,
+				4D49B59DB449012F5052CF04B4C15CB1 /* Options.swift in Sources */,
+				6308053E83648C57721F761D6BA08D99 /* Point.swift in Sources */,
+				5199C4E00D0940AA47C563B661CFF945 /* Renderer.swift in Sources */,
+				40833C6DFF6B86B573266B414997BA6C /* rough.js in Sources */,
+				88876ADF4E4225158DC80AE24A6E0C97 /* RoughSwift-dummy.m in Sources */,
+				467064CA0C34F2FBF2F06A0F0A359AF7 /* RoughSwift.swift in Sources */,
+				01F53D9C063B36D5D86F5669E641CDC1 /* Size.swift in Sources */,
+				F92F540618CE5C6DED3638C61DAD7081 /* SVGPath.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2B450B66DA54E3048E3EB2A5640970C7 /* Sources */ = {
+		8BEF2CFFC4AB4FC3755B52AA010A8A7E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18F09AE0E86B93A44CB79537532EB671 /* CardCell.swift in Sources */,
-				6D478F3B683E78838F0D3C91BE84DE4A /* CardDelegate.swift in Sources */,
-				5CFF3AEC0DFFEE2462F416A4C4B6B7EE /* Extensions.swift in Sources */,
-				41977B1092C1026BB9C309AA536968C9 /* PanDirection.swift in Sources */,
-				15AB58A511516BB2CD394C71DDEB3B8F /* SwipeDirection.swift in Sources */,
-				391BE6641666252DB78F9BEB15256EAD /* VerticalCardSwiper-dummy.m in Sources */,
-				0BC220674F623274E1FFBE8816FD7103 /* VerticalCardSwiper.swift in Sources */,
-				CF57FB29A49ABA40CC12F3E321D15964 /* VerticalCardSwiperDatasource.swift in Sources */,
-				272D60E3E1AA0F56ED3C42F1BF7C9B4F /* VerticalCardSwiperDelegate.swift in Sources */,
-				5432DD4C2162C64946C167FE1B8CCF78 /* VerticalCardSwiperFlowLayout.swift in Sources */,
-				EF2D7E7E7DEDAB56AF64CE12F41690D5 /* VerticalCardSwiperView.swift in Sources */,
+				F620BF6D17009E0893498F966A18E6F4 /* CardCell.swift in Sources */,
+				048B170E9C27F43DEB1CC9CCCA3B467C /* CardDelegate.swift in Sources */,
+				CE24B1947486BF0D502805C3CC965463 /* Extensions.swift in Sources */,
+				F055AF28866997217B6B1A7F63CAE430 /* PanDirection.swift in Sources */,
+				4C09FB8C9D9E8722395BCF31F1B16A99 /* SwipeDirection.swift in Sources */,
+				41D804C4ECE19691C2D14B63B53208B6 /* VerticalCardSwiper-dummy.m in Sources */,
+				5AB8224CF25F05D400AD1098E7DC45B0 /* VerticalCardSwiper.swift in Sources */,
+				2052A3E941218311C1997C890B982FCF /* VerticalCardSwiperDatasource.swift in Sources */,
+				6ED7D11EE2AA6607BB1488434722F1E0 /* VerticalCardSwiperDelegate.swift in Sources */,
+				C53D5195FC48923A3767C959222EB81E /* VerticalCardSwiperFlowLayout.swift in Sources */,
+				23849AB05338909224DFB468A88CD872 /* VerticalCardSwiperView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D305BD61619A559B9E726C05E1D09AF /* Sources */ = {
+		9E755FCA496C6F6FCE46A1C4AC33831E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				918FE68DEEA9334DC8CE32562EA2CD48 /* Color+Extensions.swift in Sources */,
-				33CF7FE923884F47ADA4B89CE126D185 /* Drawable.swift in Sources */,
-				E2D46F0243B3CC5CBA0842766B5DA6B5 /* Engine.swift in Sources */,
-				C276EC1DC4C29465B5CC9E0732BF4C7F /* FillStyle.swift in Sources */,
-				22AAE8393EE916922B4BAC2E9F6BE7F7 /* Generator.swift in Sources */,
-				BB6B6E6A8A4885FA2AE008CC82BA1628 /* Operation.swift in Sources */,
-				557B7A3EC47B61A32B685F79741663CD /* OperationSet.swift in Sources */,
-				79BAE0676096A579A1955B528415A4E3 /* OperationSetType.swift in Sources */,
-				2F338D662DB93E313D91207A6772E712 /* OperationType.swift in Sources */,
-				E48CC90E4B2780432DA3AF5B5F0CCA83 /* Operator.swift in Sources */,
-				38207C9F1FE87520AD1DE08B1906633D /* Options.swift in Sources */,
-				DEC1134E3E36172146638C8A1C371DF7 /* Point.swift in Sources */,
-				62FA3279FC13BC9CD1F813F045301361 /* Renderer.swift in Sources */,
-				0009A808A012561D28AAE982D18C05B8 /* rough.js in Sources */,
-				1B668FA096A60043F1D5444065CA2EC8 /* RoughSwift-dummy.m in Sources */,
-				696085607325D46DDFE333D1EE82C8FC /* RoughSwift.swift in Sources */,
-				6E3BDD7062A27FA222F48A6C5B1D54D9 /* Size.swift in Sources */,
-				25CAA3583EB4A1BDE256CFAED8C369B3 /* SVGPath.swift in Sources */,
+				421429082126175BAC63E8F3009175C9 /* Defaults+Observing.swift in Sources */,
+				40D836AAFCE4C3FE78A5944B05734ACD /* Defaults+StringToBool.swift in Sources */,
+				3C9A8AA4B49A135C58D681A4016820EC /* Defaults+Subscripts.swift in Sources */,
+				28725C3B067ED70DDC56B1D013A6393F /* Defaults.swift in Sources */,
+				895CAB1672995A4C6F928988DBF35603 /* DefaultsBridges.swift in Sources */,
+				7E9752592ECC620D2BC2005947EF3D14 /* DefaultsKeys.swift in Sources */,
+				C2907E63C53E0043ACAA004B0178A0E0 /* DefaultsObserver.swift in Sources */,
+				5D36D39EE4AEBD30BCBC9ADDEC38F08F /* DefaultsSerializable+BuiltIns.swift in Sources */,
+				9040A6B8C2F6632F1CC7414500048645 /* DefaultsSerializable.swift in Sources */,
+				B7C6FB0E58C44102AEAD3263678C9048 /* OptionalType.swift in Sources */,
+				F18DE4C4709057A57F62F22E86F96F18 /* SwiftyUserDefaults-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B454DE87F5F19FBEE1935320AC24D8D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				737566428C1F2A036A69ECEBD2E026E1 /* Pods-klotski-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1BD66EF8FB5D43D9C08042DD62956AFB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = VerticalCardSwiper;
-			target = 57C0E1369180AA9BE61956F050F9A09E /* VerticalCardSwiper */;
-			targetProxy = 69DF38F612E92ECA411BCAFC33AF06F2 /* PBXContainerItemProxy */;
-		};
-		32573BD87378A634C1DB25C563E2EA25 /* PBXTargetDependency */ = {
+		266B640D24B2EA33F55729723F27E680 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RoughSwift;
-			target = 059F453950BDB8A0B8AAE697080C14D3 /* RoughSwift */;
-			targetProxy = 98F65B4DB0F458DEAC545D10882D6758 /* PBXContainerItemProxy */;
+			target = 10E9CE931A9864B56B7450B00C941A28 /* RoughSwift */;
+			targetProxy = 01196F4AA17741172AF26889AD4047B8 /* PBXContainerItemProxy */;
+		};
+		2CFEC1F4890C78E460BDED5DB4AB0981 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VerticalCardSwiper;
+			target = A21F7119D2D3801F5D3F1DD29ACE70D9 /* VerticalCardSwiper */;
+			targetProxy = 28489D01237522C18C62203D6971FECC /* PBXContainerItemProxy */;
+		};
+		9FC50ACC2D052341A5F1CE69C71A5B35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyUserDefaults;
+			target = FA02E4D0F804D2B633D08EECE38995A1 /* SwiftyUserDefaults */;
+			targetProxy = ABE8F1FEAAF6B59F36CB46F5F7642C15 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		580B9663317E5A3EA278BE29692434A5 /* Release */ = {
+		1A83BA0EA3A9334A21A04071C807ADAA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8122D55DFEC02373C2D106DBCDAA0FF /* Pods-klotski.release.xcconfig */;
+			baseConfigurationReference = DBA3CF44BF23EA2F5B54BF26870C6B06 /* RoughSwift.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-klotski/Pods-klotski.modulemap";
+				GCC_PREFIX_HEADER = "Target Support Files/RoughSwift/RoughSwift-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/RoughSwift/RoughSwift.modulemap;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = RoughSwift;
+				PRODUCT_NAME = RoughSwift;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Debug;
+		};
+		32F6D7FDA8DD29118B68F9FE343B3FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EF280A4A865B9F4490CFB1CE9BE0DC7 /* SwiftyUserDefaults.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyUserDefaults/SwiftyUserDefaults-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/SwiftyUserDefaults/SwiftyUserDefaults.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SwiftyUserDefaults;
+				PRODUCT_NAME = SwiftyUserDefaults;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -594,32 +772,7 @@
 			};
 			name = Release;
 		};
-		879668FCC9EA15BE5593C7FB912A1E4D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A82AB8558F69639FEB4B7B1E376E7643 /* VerticalCardSwiper.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/VerticalCardSwiper/VerticalCardSwiper-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MODULEMAP_FILE = Headers/Public/VerticalCardSwiper/VerticalCardSwiper.modulemap;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = VerticalCardSwiper;
-				PRODUCT_NAME = VerticalCardSwiper;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		8F0F87FC75CB4A22ECE94F37A1E719EB /* Debug */ = {
+		97B58EC2433E907EE5D5C812BA447D29 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 26AD02EFDF1A917D4423CD968CF0E2B9 /* Pods-klotski.debug.xcconfig */;
 			buildSettings = {
@@ -641,32 +794,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
-		};
-		B47B87C6E8D02F5BE341C23038115E5C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B7AB13921C4476A85B2E916479BA26E /* RoughSwift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/RoughSwift/RoughSwift-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MODULEMAP_FILE = Headers/Public/RoughSwift/RoughSwift.modulemap;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = RoughSwift;
-				PRODUCT_NAME = RoughSwift;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
 		};
 		D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -732,9 +859,9 @@
 			};
 			name = Debug;
 		};
-		DE613437FCD93A00608FB42CDAF16B28 /* Debug */ = {
+		D55037A7E3E98A2F185E7DB09747F82F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B7AB13921C4476A85B2E916479BA26E /* RoughSwift.xcconfig */;
+			baseConfigurationReference = DBA3CF44BF23EA2F5B54BF26870C6B06 /* RoughSwift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -754,12 +881,62 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7416637D4AB1215DFD6CA2142EA6DEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23A980F46EF76C878812F515240451B6 /* VerticalCardSwiper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/VerticalCardSwiper/VerticalCardSwiper-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/VerticalCardSwiper/VerticalCardSwiper.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = VerticalCardSwiper;
+				PRODUCT_NAME = VerticalCardSwiper;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		F5FAD4E723BBD64111A4A29ADCF0AD1A /* Release */ = {
+		E5B4B196E7BF09BCF3BDB481E0AB5171 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A82AB8558F69639FEB4B7B1E376E7643 /* VerticalCardSwiper.xcconfig */;
+			baseConfigurationReference = A8122D55DFEC02373C2D106DBCDAA0FF /* Pods-klotski.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-klotski/Pods-klotski.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E769A86ED09E90B41356CE28052471F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23A980F46EF76C878812F515240451B6 /* VerticalCardSwiper.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -783,18 +960,35 @@
 			};
 			name = Release;
 		};
+		F85EB547BA13C60C46F37FFB57612AB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EF280A4A865B9F4490CFB1CE9BE0DC7 /* SwiftyUserDefaults.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyUserDefaults/SwiftyUserDefaults-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/SwiftyUserDefaults/SwiftyUserDefaults.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SwiftyUserDefaults;
+				PRODUCT_NAME = SwiftyUserDefaults;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		14DD76C65867B3087A513CA45D19D182 /* Build configuration list for PBXNativeTarget "VerticalCardSwiper" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				879668FCC9EA15BE5593C7FB912A1E4D /* Debug */,
-				F5FAD4E723BBD64111A4A29ADCF0AD1A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -804,20 +998,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		67997593691B6FB7A59FF5F7B1087810 /* Build configuration list for PBXNativeTarget "RoughSwift" */ = {
+		81379E6F5CA05DDE0AA8595F029B46D7 /* Build configuration list for PBXNativeTarget "VerticalCardSwiper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DE613437FCD93A00608FB42CDAF16B28 /* Debug */,
-				B47B87C6E8D02F5BE341C23038115E5C /* Release */,
+				D7416637D4AB1215DFD6CA2142EA6DEF /* Debug */,
+				E769A86ED09E90B41356CE28052471F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E45AC94CEF4C42F915A1ADC1E2C3112F /* Build configuration list for PBXNativeTarget "Pods-klotski" */ = {
+		818C04CF6209F317AC718533070C6B34 /* Build configuration list for PBXNativeTarget "Pods-klotski" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8F0F87FC75CB4A22ECE94F37A1E719EB /* Debug */,
-				580B9663317E5A3EA278BE29692434A5 /* Release */,
+				97B58EC2433E907EE5D5C812BA447D29 /* Debug */,
+				E5B4B196E7BF09BCF3BDB481E0AB5171 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE3DDEEB6477CFA66F36678374B1B9D5 /* Build configuration list for PBXNativeTarget "RoughSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A83BA0EA3A9334A21A04071C807ADAA /* Debug */,
+				D55037A7E3E98A2F185E7DB09747F82F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C32DDE06B24D97085984FF2FA6645565 /* Build configuration list for PBXNativeTarget "SwiftyUserDefaults" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32F6D7FDA8DD29118B68F9FE343B3FBF /* Debug */,
+				F85EB547BA13C60C46F37FFB57612AB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -8,6 +8,7 @@
 
 import UIKit
 import RoughSwift
+import SwiftyUserDefaults
 
 
 class GameVC: UIViewController {
@@ -38,7 +39,8 @@ class GameVC: UIViewController {
         blockSize = boardWidth / 4
         
 
-        cards = LevelSetup.initLevel4()
+//        cards = LevelSetup.initLevel4()
+        cards = LevelSetup.loadLevel(level: levelChosen)
         
         board.updateMap(all: cards)
         
@@ -156,6 +158,49 @@ class GameVC: UIViewController {
         
     }
     
+    @IBAction func resetTapped(_ sender: Any) {
+        switch levelChosen {
+        case 0:
+            Defaults[.userLevel0Champions] = Defaults[.defaultLevel0Champions]
+            Defaults[.userLevel0Towers] = Defaults[.defaultLevel0Towers]
+            Defaults[.userLevel0Minions] = Defaults[.defaultLevel0Minions]
+        case 1:
+            Defaults[.userLevel1Champions] = Defaults[.defaultLevel1Champions]
+            Defaults[.userLevel1Towers] = Defaults[.defaultLevel1Towers]
+            Defaults[.userLevel1Minions] = Defaults[.defaultLevel1Minions]
+        case 2:
+            Defaults[.userLevel2Champions] = Defaults[.defaultLevel2Champions]
+            Defaults[.userLevel2Towers] = Defaults[.defaultLevel2Towers]
+            Defaults[.userLevel2Minions] = Defaults[.defaultLevel2Minions]
+        case 3:
+            Defaults[.userLevel3Champions] = Defaults[.defaultLevel3Champions]
+            Defaults[.userLevel3Towers] = Defaults[.defaultLevel3Towers]
+            Defaults[.userLevel3Minions] = Defaults[.defaultLevel3Minions]
+        case 4:
+            Defaults[.userLevel4Champions] = Defaults[.defaultLevel4Champions]
+            Defaults[.userLevel4Towers] = Defaults[.defaultLevel4Towers]
+            Defaults[.userLevel4Minions] = Defaults[.defaultLevel4Minions]
+        default:
+            Defaults[.userLevel0Champions] = Defaults[.defaultLevel0Champions]
+            Defaults[.userLevel0Towers] = Defaults[.defaultLevel0Towers]
+            Defaults[.userLevel0Minions] = Defaults[.defaultLevel0Minions]
+        }
+//        self.viewDidLoad()
+//        cards = LevelSetup.loadLevel(level: levelChosen)
+//        for card in cards {
+//            board.updateMap(all: cards)
+//
+//            UIView.beginAnimations(nil, context: nil)
+//            UIView.setAnimationDuration(0.5)
+//            cardView.redraw(with: card, in: board, scale: blockSize)
+//            UIView.commitAnimations()
+//        }
+        
+        self.navigationController?.popViewController(animated: true)
+        
+    }
+    
+    
     @IBAction func backTapped(_ sender: Any) {
         
         self.navigationController?.popViewController(animated: true)
@@ -180,14 +225,125 @@ class GameVC: UIViewController {
         print(savedDataChampions)
         print(savedDataTowers)
         print(savedDataMinions)
-        print("---TADA---Real Data-----")
-        print(cards)
-        print("---TADA---ReProduce Data-----")
-        print(LevelSetup.intsToCards(champion: savedDataChampions, tower: savedDataTowers, minion: savedDataMinions))
+//        print("---TADA---Real Data-----")
+//        print(cards)
+//        print("---TADA---Check Default Level 0 Data-----")
+//        print(LevelSetup.intsToCards(champion: Defaults[.defaultLevel0Champions], tower: Defaults[.defaultLevel0Towers], minion: Defaults[.defaultLevel0Minions]))
+        
+        switch levelChosen {
+        case 0:
+            Defaults[.userLevel0Champions] = savedDataChampions
+            Defaults[.userLevel0Towers] = savedDataTowers
+            Defaults[.userLevel0Minions] = savedDataMinions
+        case 1:
+            Defaults[.userLevel1Champions] = savedDataChampions
+            Defaults[.userLevel1Towers] = savedDataTowers
+            Defaults[.userLevel1Minions] = savedDataMinions
+        case 2:
+            Defaults[.userLevel2Champions] = savedDataChampions
+            Defaults[.userLevel2Towers] = savedDataTowers
+            Defaults[.userLevel2Minions] = savedDataMinions
+        case 3:
+            Defaults[.userLevel3Champions] = savedDataChampions
+            Defaults[.userLevel3Towers] = savedDataTowers
+            Defaults[.userLevel3Minions] = savedDataMinions
+        case 4:
+            Defaults[.userLevel4Champions] = savedDataChampions
+            Defaults[.userLevel4Towers] = savedDataTowers
+            Defaults[.userLevel4Minions] = savedDataMinions
+        default:
+            Defaults[.userLevel0Champions] = savedDataChampions
+            Defaults[.userLevel0Towers] = savedDataTowers
+            Defaults[.userLevel0Minions] = savedDataMinions
+        }
+        
+        print("Saved to User Defaults")
     }
-    
-
 
 
 }
+
+extension DefaultsKeys {
+    // level 0
+    static let defaultLevel0Champions = DefaultsKey<[Int]>("defaultLevel0Champions", defaultValue: [1,0,2,0,1,1,2,1])
+    static let defaultLevel0Towers = DefaultsKey<[Int]>("defaultLevel0Towers", defaultValue: [0,0,0,1,3,0,3,1,0,2,0,3,3,2,3,3,1,2,2,2])
+    static let defaultLevel0Minions = DefaultsKey<[Int]>("defaultLevel0Minions", defaultValue: [0,4,1,3,2,3,3,4])
+    static let userLevel0Champions = DefaultsKey<[Int]>("userLevel0Champions", defaultValue: [1,0,2,0,1,1,2,1])
+    static let userLevel0Towers = DefaultsKey<[Int]>("userLevel0Towers", defaultValue: [0,0,0,1,3,0,3,1,0,2,0,3,3,2,3,3,1,2,2,2])
+    static let userLevel0Minions = DefaultsKey<[Int]>("userLevel0Minions", defaultValue: [0,4,1,3,2,3,3,4])
+    
+    // level 1
+    static let defaultLevel1Champions = DefaultsKey<[Int]>("defaultLevel1Champions", defaultValue: [1,0,2,0,1,1,2,1])
+    static let defaultLevel1Towers = DefaultsKey<[Int]>("defaultLevel1Towers", defaultValue: [0,2,0,3,3,2,3,3])
+    static let defaultLevel1Minions = DefaultsKey<[Int]>("defaultLevel1Minions", defaultValue: [0,0,0,1,3,0,3,1,1,2,1,3,2,2,2,3,0,4,3,4])
+    static let userLevel1Champions = DefaultsKey<[Int]>("userLevel1Champions", defaultValue: [1,0,2,0,1,1,2,1])
+    static let userLevel1Towers = DefaultsKey<[Int]>("userLevel1Towers", defaultValue: [0,2,0,3,3,2,3,3])
+    static let userLevel1Minions = DefaultsKey<[Int]>("userLevel1Minions", defaultValue: [0,0,0,1,3,0,3,1,1,2,1,3,2,2,2,3,0,4,3,4])
+    
+    // level 2
+    static let defaultLevel2Champions = DefaultsKey<[Int]>("defaultLevel2Champions", defaultValue: [1,0,2,0,1,1,2,1])
+    static let defaultLevel2Towers = DefaultsKey<[Int]>("defaultLevel2Towers", defaultValue: [0,1,0,2,0,3,0,4])
+    static let defaultLevel2Minions = DefaultsKey<[Int]>("defaultLevel2Minions", defaultValue: [0,0,3,0,3,1,3,2,1,2,2,2,1,3,2,3])
+    static let userLevel2Champions = DefaultsKey<[Int]>("userLevel2Champions", defaultValue: [1,0,2,0,1,1,2,1])
+    static let userLevel2Towers = DefaultsKey<[Int]>("userLevel2Towers", defaultValue: [0,1,0,2,0,3,0,4])
+    static let userLevel2Minions = DefaultsKey<[Int]>("userLevel2Minions", defaultValue: [0,0,3,0,3,1,3,2,1,2,2,2,1,3,2,3])
+    
+    // level 3
+    static let defaultLevel3Champions = DefaultsKey<[Int]>("defaultLevel3Champions", defaultValue: [2,1,3,1,2,2,3,2])
+    static let defaultLevel3Towers = DefaultsKey<[Int]>("defaultLevel3Towers", defaultValue: [0,0,1,0,0,1,1,1,0,3,1,3,2,3,2,4,3,3,3,4])
+    static let defaultLevel3Minions = DefaultsKey<[Int]>("defaultLevel3Minions", defaultValue: [2,0,3,0,0,2,1,2])
+    static let userLevel3Champions = DefaultsKey<[Int]>("userLevel3Champions", defaultValue: [2,1,3,1,2,2,3,2])
+    static let userLevel3Towers = DefaultsKey<[Int]>("userLevel3Towers", defaultValue: [0,0,1,0,0,1,1,1,0,3,1,3,2,3,2,4,3,3,3,4])
+    static let userLevel3Minions = DefaultsKey<[Int]>("userLevel3Minions", defaultValue: [2,0,3,0,0,2,1,2])
+    
+    // level 4
+    static let defaultLevel4Champions = DefaultsKey<[Int]>("defaultLevel4Champions", defaultValue: [0,1,1,1,0,2,1,2])
+    static let defaultLevel4Towers = DefaultsKey<[Int]>("defaultLevel4Towers", defaultValue: [2,0,2,1,3,0,3,1,0,3,0,4,1,3,2,3,3,2,3,3,2,4,3,4])
+    static let defaultLevel4Minions = DefaultsKey<[Int]>("defaultLevel4Minions", defaultValue: [0,0])
+    static let userLevel4Champions = DefaultsKey<[Int]>("userLevel4Champions", defaultValue: [0,1,1,1,0,2,1,2])
+    static let userLevel4Towers = DefaultsKey<[Int]>("userLevel4Towers", defaultValue: [2,0,2,1,3,0,3,1,0,3,0,4,1,3,2,3,3,2,3,3,2,4,3,4])
+    static let userLevel4Minions = DefaultsKey<[Int]>("userLevel4Minions", defaultValue: [0,0])
+    
+    // level 5
+    static let defaultLevel5Champions = DefaultsKey<[Int]>("defaultLevel5Champions", defaultValue: [1,0,2,0,1,1,2,1])
+    static let defaultLevel5Towers = DefaultsKey<[Int]>("defaultLevel5Towers", defaultValue: [0,0,0,1,0,2,1,2,0,3,0,4,1,3,1,4,2,3,3,3])
+    static let defaultLevel5Minions = DefaultsKey<[Int]>("defaultLevel5Minions", defaultValue: [2,2,3,2,2,4,3,4])
+    static let userLevel5Champions = DefaultsKey<[Int]>("userLevel5Champions", defaultValue: [1,0,2,0,1,1,2,1])
+    static let userLevel5Towers = DefaultsKey<[Int]>("userLevel5Towers", defaultValue: [0,0,0,1,0,2,1,2,0,3,0,4,1,3,1,4,2,3,3,3])
+    static let userLevel5Minions = DefaultsKey<[Int]>("userLevel5Minions", defaultValue: [2,2,3,2,2,4,3,4])
+    
+    // level 6
+    static let defaultLevel6Champions = DefaultsKey<[Int]>("defaultLevel6Champions", defaultValue: [2,2,3,2,2,3,3,3])
+    static let defaultLevel6Towers = DefaultsKey<[Int]>("defaultLevel6Towers", defaultValue: [0,0,0,1,0,2,0,3,0,4,1,4,3,0,3,1,2,4,3,4])
+    static let defaultLevel6Minions = DefaultsKey<[Int]>("defaultLevel6Minions", defaultValue: [1,2,1,0,2,0,2,1])
+    static let userLevel6Champions = DefaultsKey<[Int]>("userLevel6Champions", defaultValue: [2,2,3,2,2,3,3,3])
+    static let userLevel6Towers = DefaultsKey<[Int]>("userLevel6Towers", defaultValue: [0,0,0,1,0,2,0,3,0,4,1,4,3,0,3,1,2,4,3,4])
+    static let userLevel6Minions = DefaultsKey<[Int]>("userLevel6Minions", defaultValue: [1,2,1,0,2,0,2,1])
+    
+    // level 7
+    static let defaultLevel7Champions = DefaultsKey<[Int]>("defaultLevel7Champions", defaultValue: [0,2,1,2,0,3,1,3])
+    static let defaultLevel7Towers = DefaultsKey<[Int]>("defaultLevel7Towers", defaultValue: [1,0,1,1,2,0,2,1,2,2,2,3,0,4,1,4,2,4,3,4])
+    static let defaultLevel7Minions = DefaultsKey<[Int]>("defaultLevel7Minions", defaultValue: [3,1,3,2,0,0,0,1])
+    static let userLevel7Champions = DefaultsKey<[Int]>("userLevel7Champions", defaultValue: [0,2,1,2,0,3,1,3])
+    static let userLevel7Towers = DefaultsKey<[Int]>("userLevel7Towers", defaultValue: [1,0,1,1,2,0,2,1,2,2,2,3,0,4,1,4,2,4,3,4])
+    static let userLevel7Minions = DefaultsKey<[Int]>("userLevel7Minions", defaultValue: [3,1,3,2,0,0,0,1])
+    
+    // level 8
+    static let defaultLevel8Champions = DefaultsKey<[Int]>("defaultLevel8Champions", defaultValue: [1,0,2,0,1,1,2,1])
+    static let defaultLevel8Towers = DefaultsKey<[Int]>("defaultLevel8Towers", defaultValue: [0,1,0,2,3,1,3,2,1,2,2,2,1,3,2,3,1,4,2,4])
+    static let defaultLevel8Minions = DefaultsKey<[Int]>("defaultLevel8Minions", defaultValue: [0,0,3,0,0,3,3,3])
+    static let userLevel8Champions = DefaultsKey<[Int]>("userLevel8Champions", defaultValue: [1,0,2,0,1,1,2,1])
+    static let userLevel8Towers = DefaultsKey<[Int]>("userLevel8Towers", defaultValue: [0,1,0,2,3,1,3,2,1,2,2,2,1,3,2,3,1,4,2,4])
+    static let userLevel8Minions = DefaultsKey<[Int]>("userLevel8Minions", defaultValue: [0,0,3,0,0,3,3,3])
+    
+    // level 9
+    static let defaultLevel9Champions = DefaultsKey<[Int]>("defaultLevel9Champions", defaultValue: [0,1,1,1,0,2,1,2])
+    static let defaultLevel9Towers = DefaultsKey<[Int]>("defaultLevel9Towers", defaultValue: [2,0,2,1,3,1,3,2,1,3,2,3,1,4,2,4,3,3,3,4])
+    static let defaultLevel9Minions = DefaultsKey<[Int]>("defaultLevel9Minions", defaultValue: [0,1,1,1,0,2,1,2])
+    static let userLevel9Champions = DefaultsKey<[Int]>("userLevel9Champions", defaultValue: [1,0,2,0,1,1,2,1])
+    static let userLevel9Towers = DefaultsKey<[Int]>("userLevel9Towers", defaultValue: [2,0,2,1,3,1,3,2,1,3,2,3,1,4,2,4,3,3,3,4])
+    static let userLevel9Minions = DefaultsKey<[Int]>("userLevel9Minions", defaultValue: [0,1,1,1,0,2,1,2])
+    
+}
+
 
