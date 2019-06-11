@@ -26,6 +26,8 @@ class GameVC: UIViewController {
 
     var cards:[Card] = []
     
+    let fillStyles:[FillStyle] = [.crossHatch, .dashed, .dots, .hachure, .solid, .starBurst, .sunBurst, .zigzag, .zigzagLine]
+    
     
     
     var beginPostion:CGPoint = CGPoint(x: 1, y: 1)
@@ -54,9 +56,11 @@ class GameVC: UIViewController {
             let size = CGSize(width: 300, height: 200)
             let layer = draw(size: size, using: { generator in
                 var options = Options()
-                options.stroke = UIColor.blue
-                options.fill = UIColor.orange
-                options.fillStyle = .zigzagLine
+                options.stroke = UIColor.random()
+                options.fill = UIColor.random()
+                if let fillStyle = fillStyles.randomItem() {
+                     options.fillStyle = fillStyle
+                }
                 generator.rectangle(x: 0, y: 0, width: Float(cardView.frame.width), height: Float(cardView.frame.height), options: options)
             })
             cardView.layer.addSublayer(layer)
@@ -78,6 +82,7 @@ class GameVC: UIViewController {
         }
         
     }
+    
     
     @objc func handleSwipe(_ sender: UISwipeGestureRecognizer) {
         // print(sender.direction)
@@ -106,6 +111,12 @@ class GameVC: UIViewController {
                 UIView.setAnimationDuration(0.5)
                 CardView.redraw(with: card, in: board, scale: blockSize)
                 UIView.commitAnimations()
+                
+                if (card.amIWin(in: board)) {
+                    print("WINNNNNNNNNNNN!!!!!!")
+                    showToast(message: "Great!")
+                    Defaults[.levelPass][levelChosen] = true
+                }
             }
             
         case .up:
@@ -180,6 +191,26 @@ class GameVC: UIViewController {
             Defaults[.userLevel4Champions] = Defaults[.defaultLevel4Champions]
             Defaults[.userLevel4Towers] = Defaults[.defaultLevel4Towers]
             Defaults[.userLevel4Minions] = Defaults[.defaultLevel4Minions]
+        case 5:
+            Defaults[.userLevel5Champions] = Defaults[.defaultLevel5Champions]
+            Defaults[.userLevel5Towers] = Defaults[.defaultLevel5Towers]
+            Defaults[.userLevel5Minions] = Defaults[.defaultLevel5Minions]
+        case 6:
+            Defaults[.userLevel6Champions] = Defaults[.defaultLevel6Champions]
+            Defaults[.userLevel6Towers] = Defaults[.defaultLevel6Towers]
+            Defaults[.userLevel6Minions] = Defaults[.defaultLevel6Minions]
+        case 7:
+            Defaults[.userLevel7Champions] = Defaults[.defaultLevel7Champions]
+            Defaults[.userLevel7Towers] = Defaults[.defaultLevel7Towers]
+            Defaults[.userLevel7Minions] = Defaults[.defaultLevel7Minions]
+        case 8:
+            Defaults[.userLevel8Champions] = Defaults[.defaultLevel8Champions]
+            Defaults[.userLevel8Towers] = Defaults[.defaultLevel8Towers]
+            Defaults[.userLevel8Minions] = Defaults[.defaultLevel8Minions]
+        case 9:
+            Defaults[.userLevel9Champions] = Defaults[.defaultLevel9Champions]
+            Defaults[.userLevel9Towers] = Defaults[.defaultLevel9Towers]
+            Defaults[.userLevel9Minions] = Defaults[.defaultLevel9Minions]
         default:
             Defaults[.userLevel0Champions] = Defaults[.defaultLevel0Champions]
             Defaults[.userLevel0Towers] = Defaults[.defaultLevel0Towers]
@@ -195,6 +226,7 @@ class GameVC: UIViewController {
 //            cardView.redraw(with: card, in: board, scale: blockSize)
 //            UIView.commitAnimations()
 //        }
+        Defaults[.levelPass][levelChosen] = false
         
         self.navigationController?.popViewController(animated: true)
         
@@ -251,6 +283,27 @@ class GameVC: UIViewController {
             Defaults[.userLevel4Champions] = savedDataChampions
             Defaults[.userLevel4Towers] = savedDataTowers
             Defaults[.userLevel4Minions] = savedDataMinions
+        case 5:
+            Defaults[.userLevel5Champions] = savedDataChampions
+            Defaults[.userLevel5Towers] = savedDataTowers
+            Defaults[.userLevel5Minions] = savedDataMinions
+        case 6:
+            Defaults[.userLevel6Champions] = savedDataChampions
+            Defaults[.userLevel6Towers] = savedDataTowers
+            Defaults[.userLevel6Minions] = savedDataMinions
+        case 7:
+            Defaults[.userLevel7Champions] = savedDataChampions
+            Defaults[.userLevel7Towers] = savedDataTowers
+            Defaults[.userLevel7Minions] = savedDataMinions
+        case 8:
+            Defaults[.userLevel8Champions] = savedDataChampions
+            Defaults[.userLevel8Towers] = savedDataTowers
+            Defaults[.userLevel8Minions] = savedDataMinions
+        case 9:
+            Defaults[.userLevel9Champions] = savedDataChampions
+            Defaults[.userLevel9Towers] = savedDataTowers
+            Defaults[.userLevel9Minions] = savedDataMinions
+            
         default:
             Defaults[.userLevel0Champions] = savedDataChampions
             Defaults[.userLevel0Towers] = savedDataTowers
@@ -264,6 +317,10 @@ class GameVC: UIViewController {
 }
 
 extension DefaultsKeys {
+    
+    // pass or not
+    static let levelPass = DefaultsKey<[Bool]>("levelPass", defaultValue: [false, false, false, false, false ,false, false, false, false, false])
+
     // level 0
     static let defaultLevel0Champions = DefaultsKey<[Int]>("defaultLevel0Champions", defaultValue: [1,0,2,0,1,1,2,1])
     static let defaultLevel0Towers = DefaultsKey<[Int]>("defaultLevel0Towers", defaultValue: [0,0,0,1,3,0,3,1,0,2,0,3,3,2,3,3,1,2,2,2])
@@ -339,11 +396,54 @@ extension DefaultsKeys {
     // level 9
     static let defaultLevel9Champions = DefaultsKey<[Int]>("defaultLevel9Champions", defaultValue: [0,1,1,1,0,2,1,2])
     static let defaultLevel9Towers = DefaultsKey<[Int]>("defaultLevel9Towers", defaultValue: [2,0,2,1,3,1,3,2,1,3,2,3,1,4,2,4,3,3,3,4])
-    static let defaultLevel9Minions = DefaultsKey<[Int]>("defaultLevel9Minions", defaultValue: [0,1,1,1,0,2,1,2])
-    static let userLevel9Champions = DefaultsKey<[Int]>("userLevel9Champions", defaultValue: [1,0,2,0,1,1,2,1])
+    static let defaultLevel9Minions = DefaultsKey<[Int]>("defaultLevel9Minions", defaultValue: [1,0,3,0,2,2,0,3])
+    static let userLevel9Champions = DefaultsKey<[Int]>("userLevel9Champions", defaultValue: [0,1,1,1,0,2,1,2])
     static let userLevel9Towers = DefaultsKey<[Int]>("userLevel9Towers", defaultValue: [2,0,2,1,3,1,3,2,1,3,2,3,1,4,2,4,3,3,3,4])
-    static let userLevel9Minions = DefaultsKey<[Int]>("userLevel9Minions", defaultValue: [0,1,1,1,0,2,1,2])
+    static let userLevel9Minions = DefaultsKey<[Int]>("userLevel9Minions", defaultValue: [1,0,3,0,2,2,0,3])
     
 }
 
+extension UIViewController {
+    
+    func showToast(message : String) {
+        
+        let toastLabel = UILabel(frame: CGRect(x: self.view.frame.size.width/2 - 75, y: self.view.frame.size.height-100, width: 150, height: 35))
+        toastLabel.backgroundColor = UIColor.black.withAlphaComponent(0.6)
+        toastLabel.textColor = UIColor.white
+        toastLabel.textAlignment = .center;
+        toastLabel.font = UIFont(name: "Montserrat-Light", size: 12.0)
+        toastLabel.text = message
+        toastLabel.alpha = 1.0
+        toastLabel.layer.cornerRadius = 10;
+        toastLabel.clipsToBounds  =  true
+        self.view.addSubview(toastLabel)
+        UIView.animate(withDuration: 4.0, delay: 0.1, options: .curveEaseOut, animations: {
+            toastLabel.alpha = 0.0
+        }, completion: {(isCompleted) in
+            toastLabel.removeFromSuperview()
+        })
+    } }
 
+
+extension CGFloat {
+    static func random() -> CGFloat {
+        return CGFloat(arc4random()) / CGFloat(UInt32.max)
+    }
+}
+
+extension UIColor {
+    static func random() -> UIColor {
+        return UIColor(red:   .random(),
+                       green: .random(),
+                       blue:  .random(),
+                       alpha: 1.0)
+    }
+}
+
+extension Array {
+    func randomItem() -> Element? {
+        if isEmpty { return nil }
+        let index = Int(arc4random_uniform(UInt32(self.count)))
+        return self[index]
+    }
+}

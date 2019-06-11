@@ -43,6 +43,17 @@ class Card : CustomStringConvertible{
         type = .champion
     }
     
+    // MARK: - WIN ?
+    func amIWin(in board: GameBoard) -> Bool {
+        if (self.type == .champion) {
+            let bottomLocation = getBottomLocation(in: board)
+            if bottomLocation[0].y == board.map.bottom {
+                return true
+            }
+        }
+        return false
+    }
+    
     // MARK: - Can Move?
     
     func canMoveDown(in board: GameBoard) -> Bool {

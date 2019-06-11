@@ -12,12 +12,12 @@
 		29268A39227AD9B500063DC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29268A38227AD9B500063DC6 /* AppDelegate.swift */; };
 		29268A3B227AD9B500063DC6 /* GameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29268A3A227AD9B500063DC6 /* GameVC.swift */; };
 		29268A3E227AD9B500063DC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29268A3C227AD9B500063DC6 /* Main.storyboard */; };
-		29268A40227AD9B800063DC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29268A3F227AD9B800063DC6 /* Assets.xcassets */; };
 		29268A43227AD9B800063DC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29268A41227AD9B800063DC6 /* LaunchScreen.storyboard */; };
 		2982352522AE3B4300639933 /* LevelCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2982352422AE3B4300639933 /* LevelCard.swift */; };
 		2982352722AE3B4D00639933 /* LevelCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2982352622AE3B4D00639933 /* LevelCard.xib */; };
 		2982352922AE3B5500639933 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2982352822AE3B5500639933 /* MenuVC.swift */; };
 		2982352B22AE3B6400639933 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2982352A22AE3B6400639933 /* Level.swift */; };
+		29C0563222AF8FCD00D2183E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29C0563122AF8FCD00D2183E /* Images.xcassets */; };
 		29CA8508227C0E4500D0A442 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CA8507227C0E4500D0A442 /* Card.swift */; };
 		29CA850A227C212E00D0A442 /* GameBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CA8509227C212E00D0A442 /* GameBoard.swift */; };
 		29F0950422AE6CC8005EE721 /* LevelSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F0950322AE6CC8005EE721 /* LevelSetup.swift */; };
@@ -32,13 +32,13 @@
 		29268A38227AD9B500063DC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29268A3A227AD9B500063DC6 /* GameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameVC.swift; sourceTree = "<group>"; };
 		29268A3D227AD9B500063DC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		29268A3F227AD9B800063DC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29268A42227AD9B800063DC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29268A44227AD9B800063DC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2982352422AE3B4300639933 /* LevelCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelCard.swift; sourceTree = "<group>"; };
 		2982352622AE3B4D00639933 /* LevelCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LevelCard.xib; sourceTree = "<group>"; };
 		2982352822AE3B5500639933 /* MenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 		2982352A22AE3B6400639933 /* Level.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		29C0563122AF8FCD00D2183E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		29CA8507227C0E4500D0A442 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		29CA8509227C212E00D0A442 /* GameBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoard.swift; sourceTree = "<group>"; };
 		29F0950322AE6CC8005EE721 /* LevelSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelSetup.swift; sourceTree = "<group>"; };
@@ -88,15 +88,14 @@
 		29268A37227AD9B500063DC6 /* klotski */ = {
 			isa = PBXGroup;
 			children = (
+				29C0562A22AF852100D2183E /* StoryBoard */,
 				29564DED227D75FE00C3BD53 /* Controller */,
 				29564DEB227D75ED00C3BD53 /* View */,
 				29564DEA227D75CC00C3BD53 /* Model */,
 				29268A38227AD9B500063DC6 /* AppDelegate.swift */,
-				29268A3C227AD9B500063DC6 /* Main.storyboard */,
-				29268A3F227AD9B800063DC6 /* Assets.xcassets */,
-				29268A41227AD9B800063DC6 /* LaunchScreen.storyboard */,
 				29268A44227AD9B800063DC6 /* Info.plist */,
 				29F0950322AE6CC8005EE721 /* LevelSetup.swift */,
+				29C0563122AF8FCD00D2183E /* Images.xcassets */,
 			);
 			path = klotski;
 			sourceTree = "<group>";
@@ -115,7 +114,6 @@
 		29564DEB227D75ED00C3BD53 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				2982352622AE3B4D00639933 /* LevelCard.xib */,
 				2982352422AE3B4300639933 /* LevelCard.swift */,
 				2924880A227C6383009550B4 /* UICard.swift */,
 			);
@@ -129,6 +127,16 @@
 				29268A3A227AD9B500063DC6 /* GameVC.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		29C0562A22AF852100D2183E /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				29268A3C227AD9B500063DC6 /* Main.storyboard */,
+				2982352622AE3B4D00639933 /* LevelCard.xib */,
+				29268A41227AD9B800063DC6 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
 			sourceTree = "<group>";
 		};
 		51DFB037299022A510DAC164 /* Frameworks */ = {
@@ -200,8 +208,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2982352722AE3B4D00639933 /* LevelCard.xib in Resources */,
+				29C0563222AF8FCD00D2183E /* Images.xcassets in Resources */,
 				29268A43227AD9B800063DC6 /* LaunchScreen.storyboard in Resources */,
-				29268A40227AD9B800063DC6 /* Assets.xcassets in Resources */,
 				29268A3E227AD9B500063DC6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

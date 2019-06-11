@@ -11,10 +11,8 @@ import Foundation
 internal class Level :Codable{
     var name: String!
     
-    var pass: Bool!
     
     init(_ name: String) {
         self.name = name
-        pass = false
     }
 }

@@ -73,6 +73,16 @@ class LevelSetup {
             return intsToCards(champion: Defaults[.userLevel3Champions], tower: Defaults[.userLevel3Towers], minion: Defaults[.userLevel3Minions])
         case 4:
             return intsToCards(champion: Defaults[.userLevel4Champions], tower: Defaults[.userLevel4Towers], minion: Defaults[.userLevel4Minions])
+        case 5:
+            return intsToCards(champion: Defaults[.userLevel5Champions], tower: Defaults[.userLevel5Towers], minion: Defaults[.userLevel5Minions])
+        case 6:
+            return intsToCards(champion: Defaults[.userLevel6Champions], tower: Defaults[.userLevel6Towers], minion: Defaults[.userLevel6Minions])
+        case 7:
+            return intsToCards(champion: Defaults[.userLevel7Champions], tower: Defaults[.userLevel7Towers], minion: Defaults[.userLevel7Minions])
+        case 8:
+            return intsToCards(champion: Defaults[.userLevel8Champions], tower: Defaults[.userLevel8Towers], minion: Defaults[.userLevel8Minions])
+        case 9:
+            return intsToCards(champion: Defaults[.userLevel9Champions], tower: Defaults[.userLevel9Towers], minion: Defaults[.userLevel9Minions])
         default:
             return intsToCards(champion: Defaults[.userLevel0Champions], tower: Defaults[.userLevel0Towers], minion: Defaults[.userLevel0Minions])
         }

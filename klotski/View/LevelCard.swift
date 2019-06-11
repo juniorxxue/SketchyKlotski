@@ -15,7 +15,7 @@ class LevelCard: CardCell {
     
     @IBOutlet weak var levelIndex: UILabel!
     
-    @IBOutlet weak var playButton: UIButton!
+    @IBOutlet weak var passImage: UIImageView!
     
     public func setRandomBackgroundColor() {
         

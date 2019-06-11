@@ -8,6 +8,7 @@
 
 import UIKit
 import VerticalCardSwiper
+import SwiftyUserDefaults
 
 class MenuVC: UIViewController, VerticalCardSwiperDelegate, VerticalCardSwiperDatasource{
     
@@ -15,16 +16,16 @@ class MenuVC: UIViewController, VerticalCardSwiperDelegate, VerticalCardSwiperDa
     @IBOutlet weak var levelSelector: VerticalCardSwiper!
     
     private var levelsData: [Level] = [
-        Level("Level 0"),
-        Level("Level 1"),
-        Level("Level 2"),
-        Level("Level 3"),
-        Level("Level 4"),
-        Level("Level 5"),
-        Level("Level 6"),
-        Level("Level 7"),
-        Level("Level 8"),
-        Level("Level 9"),
+        Level("LEVEL 0"),
+        Level("LEVEL 1"),
+        Level("LEVEL 2"),
+        Level("LEVEL 3"),
+        Level("LEVEL 4"),
+        Level("LEVEL 5"),
+        Level("LEVEL 6"),
+        Level("LEVEL 7"),
+        Level("LEVEL 8"),
+        Level("LEVEL 9"),
     ]
     
     
@@ -41,6 +42,11 @@ class MenuVC: UIViewController, VerticalCardSwiperDelegate, VerticalCardSwiperDa
         
         self.navigationController?.isNavigationBarHidden = true
         
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        levelSelector.reloadData()
     }
     
     
@@ -60,7 +66,14 @@ class MenuVC: UIViewController, VerticalCardSwiperDelegate, VerticalCardSwiperDa
             
             levelCard.setRandomBackgroundColor()
             levelCard.levelIndex.text = level.name
-            levelCard.playButton.setTitle(String(level.pass), for: .normal)
+//            levelCard.playButton.setTitle(String(level.pass), for: .normal)
+//            levelCard.playButton.setTitle(String(Defaults[.levelPass][index]), for: .normal)
+            if Defaults[.levelPass][index] {
+                levelCard.passImage.image = #imageLiteral(resourceName: "happy_face")
+            } else {
+                levelCard.passImage.image = #imageLiteral(resourceName: "neutral_face")
+            }
+            
             return levelCard
         }
         
@@ -94,7 +107,9 @@ class MenuVC: UIViewController, VerticalCardSwiperDelegate, VerticalCardSwiperDa
         gameVC.levelChosen = index
         
         
-        levelsData[index].pass = true
+//        levelsData[index].pass = true
+//        Defaults[.levelPass][index] = true
+
         
         levelSelector.reloadData()
         
