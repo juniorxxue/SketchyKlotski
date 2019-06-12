@@ -26,6 +26,7 @@ class MenuVC: UIViewController, VerticalCardSwiperDelegate, VerticalCardSwiperDa
         Level("LEVEL 7"),
         Level("LEVEL 8"),
         Level("LEVEL 9"),
+        Level("About")
     ]
     
     
@@ -59,6 +60,16 @@ class MenuVC: UIViewController, VerticalCardSwiperDelegate, VerticalCardSwiperDa
     func cardForItemAt(verticalCardSwiperView: VerticalCardSwiperView, cardForItemAt index: Int) -> CardCell {
         
         if let levelCard = verticalCardSwiperView.dequeueReusableCell(withReuseIdentifier: "LevelCard", for: index) as? LevelCard {
+            
+            if index == 10 {
+                let level = levelsData[index]
+                levelCard.setRandomBackgroundColor()
+                levelCard.levelIndex.text = level.name
+                levelCard.passImage.image = #imageLiteral(resourceName: "about")
+                
+                return levelCard
+                
+            }
             
             
 //            levelsDetail = fetchCoreData()

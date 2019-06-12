@@ -36,7 +36,7 @@ class GameVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        self.view.backgroundColor = UIColor.black
+        self.view.backgroundColor = UIColor.random()
         let boardWidth = gameView.frame.size.width
         blockSize = boardWidth / 4
         
